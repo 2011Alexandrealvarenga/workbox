@@ -25,6 +25,19 @@
               <i class="icon-phone"></i>
               <p>(11) 1234-1234</p>
             </div>
+            <div class="item-zap">
+              <i class="icon-whatsapp"></i>
+              <p>(11) 1234-1234</p>
+            </div>
+            <div class="item-email">
+              <i class="icon-mail"></i>
+              <p>2011@gmail</p>
+            </div>
+          </div>
+          <div class="content-social-media">
+            <div class="social-media">
+              <i class="icon-facebook"></i>
+            </div>
           </div>
         </div>
       </div>
