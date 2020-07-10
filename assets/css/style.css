@@ -90,7 +90,12 @@ header .content-contact .content-phone .item-email {
 
 footer .contact .content-phone .item-phone,
 footer .contact .content-phone .item-zap,
+footer .contact .content-phone .address,
 footer .contact .content-phone .item-email {
   display: flex; }
+
+footer .map .map-item {
+  width: 100%;
+  height: 100%; }
 
 /*# sourceMappingURL=style.css.map */
