@@ -41,11 +41,32 @@
               </div>
             </div>
           </div>
-            
+        </div>
+      </div>
+    </div>
+    <!--
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+          <label class="logo">Logo</label>
+          <?php  
+            wp_nav_menu(
+              $args = array(
+                'theme_location' => 'header_menu'
+              )
+            );
+          ?>   
 
         </div>
       </div>
     </div>
+    -->
   </header>
+  <!-- MENU -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 </html>
