@@ -9,3 +9,16 @@ Version: 1
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: THEMA WORKBOX
 */
+
+header .content-contact{
+  display: flex;
+}
+header .content-contact .content-phone{
+  display: flex;
+}
+
+header .content-contact .content-phone .item-phone,
+header .content-contact .content-phone .item-zap,
+header .content-contact .content-phone .item-email{
+  display: flex;
+}
