@@ -132,6 +132,28 @@
       </div>
     </div>
   </section>
+  <section class="fazemos">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="content">
+            <div class="content-title">
+              <h3>fazemos</h3>
+            </div>
+            <div class="content-box">
+              <div class="item">
+                <h5>portão</h5>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+
+      
+    </div>
+  </section>
 
 
 

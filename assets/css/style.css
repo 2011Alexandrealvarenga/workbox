@@ -36,4 +36,31 @@ header .content-contact .content-phone .item-email {
 .content-banner .carousel .carousel-inner .carousel-item .img-carousel {
   height: 300px; }
 
+.fazemos {
+  height: 400px;
+  background: lightgreen;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center; }
+
+.fazemos .content {
+  background: white;
+  height: 300px; }
+
+.fazemos .content .content-box {
+  justify-content: center;
+  display: flex; }
+
+.fazemos .content .content-box .item {
+  height: 80px;
+  width: 120px;
+  background: lightgreen;
+  justify-content: center;
+  display: flex;
+  align-items: center; }
+
+.fazemos .content .content-box .item:hover {
+  background: url("assets/img/1.jpg"); }
+
 /*# sourceMappingURL=style.css.map */
