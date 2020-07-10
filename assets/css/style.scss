@@ -9,7 +9,10 @@ Version: 1
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: THEMA WORKBOX
 */
-
+h1,h2,h3{
+  text-align: center;
+  padding: 20px;
+}
 header .content-contact{
   display: flex;
 }
@@ -54,14 +57,47 @@ header .content-contact .content-phone .item-email{
   justify-content: center;
   display: flex;
 }
-.fazemos .content .content-box .item{
+.fazemos .content .content-box .item-1{
   height: 80px;
   width: 120px;
   background: lightgreen;
   justify-content: center;
   display: flex;
   align-items: center;
+  margin: 20px;
 }
-.fazemos .content .content-box .item:hover{
-  background: url('assets/img/1.jpg');
+
+
+
+.empresa{
+  height: auto;
+  background: lightblue;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.empresa .content{
+  background: white;
+  text-align: center;
+  width: 600px;
+  margin: 30px 0;
+}
+.empresa .content-gallery{
+  background: lightgreen;
+  margin: 30px 0;
+}
+
+
+.empresa .content-gallery .image .img-galery{
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+
+footer .contact .content-phone .item-phone,
+footer .contact .content-phone .item-zap,
+footer .contact .content-phone .item-email{
+  display: flex;
 }

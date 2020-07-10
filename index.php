@@ -141,8 +141,14 @@
               <h3>fazemos</h3>
             </div>
             <div class="content-box">
-              <div class="item">
+              <div class="item-1">
                 <h5>portão</h5>
+              </div>
+              <div class="item-1">
+                <h5>porta</h5>
+              </div>
+              <div class="item-1">
+                <h5>janela</h5>
               </div>
             </div>
           </div>
@@ -154,9 +160,60 @@
       
     </div>
   </section>
+  <section class="empresa">
+    <div class="container">
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <div class="content">
+            <h3>WORKBOX</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, nemo, quas! Libero voluptates quis, neque quam ratione ipsa labore earum.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <div class="content-gallery">
+            <div class="title">
+              <h3>Confira alguns trabalhos realizados</h3>
+            </div>
+            <div class="image">
+              <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+              <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+              <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+              <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
 
 
-
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="contact">
+          <div class="content-phone">
+            <div class="item-phone">
+              <i class="icon-phone"></i>
+              <p>(11) 1234-1234</p>
+            </div>
+            <div class="item-zap">
+              <i class="icon-whatsapp"></i>
+              <p>(11) 1234-1234</p>
+            </div>
+            <div class="item-email">
+              <i class="icon-mail"></i>
+              <p>2011@gmail</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 
