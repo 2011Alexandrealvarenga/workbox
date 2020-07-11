@@ -30,12 +30,13 @@
                 <i class="icon-whatsapp"></i>
                 <p>(11) 1234-1234</p>
               </div>
-              <div class="item-email">
-                <i class="icon-mail"></i>
-                <p>2011@gmail</p>
-              </div>
+              
             </div>
             <div class="content-social-media">
+              <div class="item-email">
+                <i class="icon-mail"></i>
+                <p>2011brunofernandes@gmail.com</p>
+              </div>
               <div class="social-media">
                 <i class="icon-facebook"></i>
               </div>

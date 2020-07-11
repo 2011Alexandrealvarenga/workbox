@@ -14,17 +14,47 @@ h1,h2,h3{
   text-align: center;
   padding: 20px;
 }
+p,a{
+  margin: 0;
+  padding: 0;
+
+}
+/******************header*/
+header .top-social{
+  background: #000;
+}
 header .content-contact{
-  display: flex;
+  display: inline;
+  padding: 5px 0;
 }
 header .content-contact .content-phone{
   display: flex;
+  float: left;
 }
+header .content-contact .content-social-media{
+  display: flex;
+  float: right;
+}
+
 
 header .content-contact .content-phone .item-phone,
 header .content-contact .content-phone .item-zap,
-header .content-contact .content-phone .item-email{
+header .content-contact .content-social-media .item-email{
   display: flex;
+  color: white;
+}
+
+header .content-contact .social-media .icon-facebook{
+  color: white;
+}
+header .content-contact .social-media .icon-facebook:before{
+  margin-right: 0!important;
+}
+header .content-contact i:before{
+  margin-left: 0;
+}
+header .content-contact p{
+  padding-right: 15px;
 }
 
 /**************************MENU*/
@@ -195,7 +225,7 @@ a.active,a:hover{
   margin: 10px;
 } 
 
-
+/************************************************* pages */
 /*teste conteudo portfolio*/
 .content-equipe{
   display: flex;
