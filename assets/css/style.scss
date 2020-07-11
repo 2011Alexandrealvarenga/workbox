@@ -335,10 +335,12 @@ a.active,a:hover{
   width: 600px;
   margin: 30px 0;
   padding: 0 20px 20px 20px;
+  border-radius: 4px;
 }
 .empresa .content-gallery{
   background: $branco;
   margin: 30px 0;
+  border-radius: 4px;
 }
 
 .empresa .content-gallery .image{
@@ -347,10 +349,11 @@ a.active,a:hover{
   justify-content: center;
 }
 .empresa .content-gallery .image .img-galery{
-  width: 150px;
-  height: 120px;
+  width: 250px;
+  height: 200px;
   object-fit: cover;
   margin: 10px;
+  border-radius: 4px;
 } 
 
 
@@ -388,16 +391,22 @@ a.active,a:hover{
   width: 50%;
   background: lightgreen;
 }
-
-
+/**************************sobre nos*/
+.about{
+  min-height: 100vh;
+}
 /**************************footer*/
 footer{
-  background: #000;
+  background: $preto;
 }
 footer i,
 footer h3,
 footer p{
   color: white;
+}
+footer .contact h3{
+  text-align: start!important;
+  padding-left: 0;
 }
 footer .contact .content-phone .item-phone,
 footer .contact .content-phone .item-zap,
@@ -415,3 +424,7 @@ footer .map .map-item{
   height: 100%;
 }
 
+footer .map{
+  height: 250px;
+  padding-bottom: 10px;
+}
