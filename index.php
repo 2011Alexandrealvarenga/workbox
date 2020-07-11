@@ -37,7 +37,21 @@
                   ?>
 
                     <div class="carousel-item <?php $c++; if($c == 1) { echo ' active'; } ?>">
-                      <h2>Workbox Serralheria</h2>
+                      <div class="item">
+                        <div class="titulo">
+                          <h2>Workbox Serralheria</h2>
+                        </div>
+                        <div class="trabalhamos">
+                          <h5>Trabalhamos com</h5>
+                        </div>
+                        <div class="mat">
+                          <h3>Ferro e Alumínio</h3>
+                        </div>
+                      </div>
+                        
+                      
+
+
                       <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-fluid img-carousel rounded')) ?>
 
                       <div class="carousel-caption d-none d-md-block">
@@ -84,8 +98,9 @@
               <h3>fazemos</h3>
             </div>
             <div class="content-box">
-              <div class="item-1">
-                <h5>portão</h5>
+              <div class="item-2">
+                <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+                
               </div>
               <div class="item-1">
                 <h5>porta</h5>

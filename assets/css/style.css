@@ -10,13 +10,14 @@ Version: 1
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: THEMA WORKBOX
 */
+p, a, h4, h5, h6 {
+  margin: 0; }
+
 h1, h2, h3 {
   text-align: center;
-  padding: 20px; }
-
-p, a {
+  padding: 20px;
   margin: 0;
-  padding: 0; }
+  font-weight: bold; }
 
 /******************header*/
 header .top-social {
@@ -144,15 +145,70 @@ a.active, a:hover {
   background: lightgreen;
   text-align: center; }
 
+.content-banner .carousel .carousel-inner .carousel-item {
+  position: relative;
+  align-content: center;
+  display: flex;
+  justify-content: center; }
+
 .content-banner .carousel .carousel-inner .carousel-item .img-carousel {
   height: 600px; }
 
-.banner .content-all-banner .carousel .carousel-inner h2 {
+.banner .content-all-banner .carousel .carousel-inner .item {
   position: absolute;
-  top: 0;
-  color: white;
-  width: 100%; }
+  top: 10%;
+  width: 100%;
+  max-width: 700px; }
 
+.banner .content-all-banner .carousel .carousel-inner .item .titulo {
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+  display: flex; }
+
+.banner .content-all-banner .carousel .carousel-inner .item .trabalhamos {
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex; }
+
+.banner .content-all-banner .carousel .carousel-inner .item .mat {
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex; }
+
+/*
+.banner .content-all-banner .carousel .carousel-inner .item .desc{
+  position: absolute;
+  color: white;
+  width: 100%;
+  background: rgba(0,0,0,0.2);
+  max-width: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.banner .content-all-banner .carousel .carousel-inner .item .titulo{
+  position: absolute;
+  top: 10%;
+  color: white;
+  width: 100%;
+  background: rgba(0,0,0,0.2);
+  max-width: 700px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+*/
 /**************************fazemos*/
 .fazemos {
   height: auto;
@@ -182,6 +238,20 @@ a.active, a:hover {
   display: flex;
   align-items: center; }
 
+.fazemos .content .content-box .item-2 {
+  height: 150px;
+  width: 200px;
+  object-fit: cover;
+  margin: 20px;
+  border-radius: 4px;
+  background: url(1.jpg);
+  background-repeat: no-repeat; }
+
+.fazemos .content .content-box .item-2 img {
+  height: 150px;
+  width: 200px;
+  object-fit: cover; }
+
 /**************************empresa*/
 .empresa {
   height: auto;
@@ -194,7 +264,8 @@ a.active, a:hover {
   background: white;
   text-align: center;
   width: 600px;
-  margin: 30px 0; }
+  margin: 30px 0;
+  padding: 0 20px 20px 20px; }
 
 .empresa .content-gallery {
   background: lightgreen;
