@@ -193,12 +193,12 @@
             $my_query = new WP_Query($my_args);
             ?>
             
-            <?php if($my_query->have_posts())
+           
+            <div class="image">
+             <?php if($my_query->have_posts())
               :while($my_query->have_posts())
               :$my_query->the_post();
              ?>
-            <div class="image">
-              
         
               <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-galery')); ?>
 
@@ -213,12 +213,11 @@
               <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
               -->
 
-              
+               <?php endwhile; ?>
+              <?php else : get_404_template();  endif; ?>
 
             </div>
-<?php endwhile; ?>
-
-              <?php else : get_404_template();  endif; ?>
+             
           </div>
         </div>
       </div>
