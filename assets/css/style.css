@@ -295,7 +295,7 @@ a.active, a:hover {
   border-radius: 4px; }
 
 .empresa .content-gallery .image {
-  display: flex;
+  display: inline;
   flex-wrap: wrap;
   justify-content: center; }
 

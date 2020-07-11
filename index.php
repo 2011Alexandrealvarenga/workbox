@@ -154,7 +154,7 @@
                   <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
                 </div>
               </div>
-              
+
 
 
             </div>
@@ -183,15 +183,42 @@
             <div class="title">
               <h3>Confira alguns trabalhos realizados</h3>
             </div>
+            <?php 
+
+            $my_args = array(
+                'post_type' => 'post',
+                'category_name' => 'galeria'
+            );
+
+            $my_query = new WP_Query($my_args);
+            ?>
+            
+            <?php if($my_query->have_posts())
+              :while($my_query->have_posts())
+              :$my_query->the_post();
+             ?>
             <div class="image">
+              
+        
+              <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-galery')); ?>
+
+
+              <!-- 
+             
               <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
               <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
               <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
               <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
               <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
               <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
-              <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+              -->
+
+              
+
             </div>
+<?php endwhile; ?>
+
+              <?php else : get_404_template();  endif; ?>
           </div>
         </div>
       </div>
