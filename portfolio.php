@@ -25,32 +25,6 @@ Text Domain: THEMA WORKBOX
         </div>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col">
-        <div class="client">
-          <h3>nome do cliente</h3>
-        </div>
-      </div>  
-    </div>
-    <div class="row">
-      <div class="col">
-        <div class="servico">
-          portoes <br>
-          material <br>
-          endereço <br>
-          contato <br>
-
-        </div>
-      </div>
-      <div class="col">
-        <div class="banner">
-          <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
-        </div>
-      </div>
-    </div>
-        
-    
   </div>
   <div class="container">
     <div class="content">
@@ -58,9 +32,30 @@ Text Domain: THEMA WORKBOX
       <div class="content-box">
         <div class="content-esquerdo">
           <p>texto a esquerda</p>
+          portoes <br>
+          material <br>
+          endereço <br>
+          contato <br>
         </div> 
         <div class="content-direita">
-          <p>texto a direita</p>
+          <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+        </div> 
+      </div>
+      
+
+    </div>
+    <div class="content">
+      <h3>titulo</h3>
+      <div class="content-box">
+        <div class="content-esquerdo">
+          <p>texto a esquerda</p>
+          portoes <br>
+          material <br>
+          endereço <br>
+          contato <br>
+        </div> 
+        <div class="content-direita">
+          <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
         </div> 
       </div>
       
