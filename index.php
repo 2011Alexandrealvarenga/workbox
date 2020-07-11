@@ -85,6 +85,18 @@
               <div class="item-1">
                 <h5>janela</h5>
               </div>
+              <div class="item-1">
+                <h5>Estrutura Metálica</h5>
+              </div>
+              <div class="item-1">
+                <h5>Cobertura</h5>
+              </div>
+              <div class="item-1">
+                <h5>Guarda Copo</h5>
+              </div>
+              <div class="item-1">
+                <h5>corrimão</h5>
+              </div>
             </div>
           </div>
           
@@ -112,6 +124,9 @@
               <h3>Confira alguns trabalhos realizados</h3>
             </div>
             <div class="image">
+              <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+              <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+              <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
               <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
               <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
               <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
