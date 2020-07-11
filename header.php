@@ -16,53 +16,54 @@
 
 </style>
 <header>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="content-contact">
-            <div class="content-phone">
-              <div class="item-phone">
-                <i class="icon-phone"></i>
-                <p>(11) 1234-1234</p>
-              </div>
-              <div class="item-zap">
-                <i class="icon-whatsapp"></i>
-                <p>(11) 1234-1234</p>
-              </div>
-              <div class="item-email">
-                <i class="icon-mail"></i>
-                <p>2011@gmail</p>
-              </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="content-contact">
+          <div class="content-phone">
+            <div class="item-phone">
+              <i class="icon-phone"></i>
+              <p>(11) 1234-1234</p>
             </div>
-            <div class="content-social-media">
-              <div class="social-media">
-                <i class="icon-facebook"></i>
-              </div>
+            <div class="item-zap">
+              <i class="icon-whatsapp"></i>
+              <p>(11) 1234-1234</p>
+            </div>
+            <div class="item-email">
+              <i class="icon-mail"></i>
+              <p>2011@gmail</p>
+            </div>
+          </div>
+          <div class="content-social-media">
+            <div class="social-media">
+              <i class="icon-facebook"></i>
             </div>
           </div>
         </div>
       </div>
     </div>
-  
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          
-           <nav>
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-              <i class="fas fa-bars"></i>
-            </label>
-            <label class="logo">Logo</label>
-            <ul>
-              <li> <a href="#" class="active">home</a></li>
-              <li> <a href="http://localhost/SITES%20CLIENTES/WORKBOX/WP/index.php/portfolio/">PORTFÓLIO</a></li>
-              <li> <a href="#">sobre nos</a></li>
-              <li> <a href="#">home</a></li>
-            </ul>
-          </nav>
-        </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        
+        <nav>
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+          <label class="logo">Logo</label>
+          <ul>
+            <li> <a href="#" class="active">home</a></li>
+            <li> <a href="http://localhost/SITES%20CLIENTES/WORKBOX/WP/index.php/portfolio/">PORTFÓLIO</a></li>
+            <li> <a href="http://localhost/SITES%20CLIENTES/WORKBOX/WP/index.php/sobre-nos/">sobre nos</a></li>
+            <li> <a href="http://localhost/SITES%20CLIENTES/WORKBOX/WP/index.php/sobre-nos/">CLIENTE</a></li>
+            
+          </ul>
+        </nav>
       </div>
     </div>
+  </div>
   
-  </header>
+</header>
