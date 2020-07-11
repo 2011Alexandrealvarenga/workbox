@@ -1,3 +1,19 @@
+<?php 
+/*
+Template name: indexhome
+Theme Name: THEMA WORKBOX
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Author: Alexandre Alvarenga
+Author URI: 
+Description: 
+Tags: site serralheria industrial, janelas, portas, portao, estrutura metálica, cobertura, guarda corpo, corrimão
+Version: 1
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: THEMA WORKBOX
+*/
+
+
+ ?>
 <?php get_header(); ?>
 <body>
   
@@ -183,38 +199,12 @@
             <div class="title">
               <h3>Confira alguns trabalhos realizados</h3>
             </div>
-            <?php 
 
-            $my_args = array(
-                'post_type' => 'post',
-                'category_name' => 'galeria'
-            );
-
-            $my_query = new WP_Query($my_args);
-            ?>
+            
             
            
             <div class="image">
-             <?php if($my_query->have_posts())
-              :while($my_query->have_posts())
-              :$my_query->the_post();
-             ?>
-        
-              <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-galery')); ?>
-
-
-              <!-- 
-             
-              <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
-              <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
-              <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
-              <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
-              <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
-              <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
-              -->
-
-               <?php endwhile; ?>
-              <?php else : get_404_template();  endif; ?>
+              <?php the_content(); ?>
 
             </div>
              

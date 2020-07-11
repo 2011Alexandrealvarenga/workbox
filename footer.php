@@ -45,9 +45,15 @@
 
   <!-- MENU -->
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <script src="<?php bloginfo('template_url') ?>/js/jquery.js"></script>
-  <script src="<?php bloginfo('template_url') ?>/js/popper.js"></script>
-  <script src="<?php bloginfo('template_url') ?>/js/bootstrap.js"></script>
+  <!--galeria -->
+  <script src="<?php bloginfo('template_url') ?>/assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="<?php bloginfo('template_url') ?>/assets/js/gallery.js"></script>
+  <script src="<?php bloginfo('template_url') ?>/assets/js/jqpage.js"></script>
+  <!-- -->
+  <script src="<?php bloginfo('template_url') ?>/assets/js/jquery.js"></script>
+  <script src="<?php bloginfo('template_url') ?>/assets/js/popper.js"></script>
+  
+  <script src="<?php bloginfo('template_url') ?>/assets/js/bootstrap.js"></script>
 
 </body>
 </html>

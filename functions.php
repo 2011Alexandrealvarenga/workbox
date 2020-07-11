@@ -1,4 +1,10 @@
 <?php 
+//galeria
+function pexeto_add_title_to_attachment( $markup, $id ){
+  $att = get_post( $id );
+  return str_replace('<a ', '<a title="'.$att->post_title.'" ', $markup);
+}
+add_filter('wp_get_attachment_link', 'pexeto_add_title_to_attachment', 10, 5);
 
 
 
