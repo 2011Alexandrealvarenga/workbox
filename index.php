@@ -6,14 +6,16 @@
       <div class="row">
         <div class="col">
           <div class="content-all-banner">
+            <!--
             <div class="content-title">
-              <h2>SERRALHERIA - INDUSTRIAL</h2>
-              <h4>trabalhamos com</h4>
+              <h2>Workbox Serralheria</h2>
+              <p>Trabalhamos com</p>
               <h3>FERRO e ALUMÍNIO</h3>
             </div>
+          -->
             <div class="content-banner"><!--banner -->
               <div id="carouselBSWP" class="carousel slide" data-ride="carousel">
-            
+               
                 <div class="carousel-inner">
                 
                   <?php 
@@ -35,17 +37,23 @@
                   ?>
 
                     <div class="carousel-item <?php $c++; if($c == 1) { echo ' active'; } ?>">
+                      <h2>Workbox Serralheria</h2>
                       <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-fluid img-carousel rounded')) ?>
+
                       <div class="carousel-caption d-none d-md-block">
+                        
                         <h5>
                           <?php the_title(); ?>
                         </h5>
+                        
                       </div>
+                      
                     </div>
-
+                  
                   <?php endwhile; endif; ?>
 
                   <?php wp_reset_query(); ?>
+
                 
                 </div>
 
