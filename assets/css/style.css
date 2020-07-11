@@ -19,9 +19,18 @@ h1, h2, h3 {
   margin: 0;
   font-weight: bold; }
 
+/*********color
+#2b2d42 preto claro
+#8d99ae chumbo
+#e5e5e5 cinza
+#edf2f4 prata
+#ef233c vermelho claro
+#d90429 vermelho 
+*/
+/******************variaveis*/
 /******************header*/
 header .top-social {
-  background: #000; }
+  background: #2b2d42; }
 
 header .content-contact {
   display: inline;
@@ -290,7 +299,8 @@ a.active, a:hover {
 .empresa .content-gallery .image .img-galery {
   width: 150px;
   height: 120px;
-  object-fit: cover; }
+  object-fit: cover;
+  margin: 10px; }
 
 /************************************************* pages */
 /*teste conteudo portfolio*/
@@ -325,11 +335,23 @@ a.active, a:hover {
   background: lightgreen; }
 
 /**************************footer*/
+footer {
+  background: #000; }
+
+footer i,
+footer h3,
+footer p {
+  color: white; }
+
 footer .contact .content-phone .item-phone,
 footer .contact .content-phone .item-zap,
 footer .contact .content-phone .address,
 footer .contact .content-phone .item-email {
-  display: flex; }
+  display: flex;
+  margin: 5px 0; }
+
+footer .contact .content-phone i {
+  padding-right: 5px; }
 
 footer .map .map-item {
   width: 100%;
