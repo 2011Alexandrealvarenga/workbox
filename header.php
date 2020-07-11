@@ -43,25 +43,26 @@
         </div>
       </div>
     </div>
-    <!--
+  
     <div class="container">
       <div class="row">
         <div class="col">
-          <input type="checkbox" id="check">
+          
+           <nav>
+            <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
               <i class="fas fa-bars"></i>
             </label>
-          <label class="logo">Logo</label>
-          <?php  
-            wp_nav_menu(
-              $args = array(
-                'theme_location' => 'header_menu'
-              )
-            );
-          ?>   
-
+            <label class="logo">Logo</label>
+            <ul>
+              <li> <a href="#" class="active">home</a></li>
+              <li> <a href="http://localhost/SITES%20CLIENTES/WORKBOX/WP/index.php/portfolio/">PORTFÓLIO</a></li>
+              <li> <a href="#">sobre nos</a></li>
+              <li> <a href="#">home</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </div>
-    -->
+  
   </header>

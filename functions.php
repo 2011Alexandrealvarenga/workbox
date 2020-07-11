@@ -1,4 +1,9 @@
 <?php 
+
+
+
+
+
 //GERA TITULO DA HEADER
 function geraTitle(){
 
@@ -7,12 +12,12 @@ function geraTitle(){
         the_title();
       }
 
-//REGISTRAR MENU
-function registrar_menu_navegacao(){
-  register_nav_menu('header-menu','main-menu');
-}
 
-add_action('init','registrar_menu_navegacao');
+
+
+
+
+
 
 
 
