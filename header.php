@@ -53,12 +53,12 @@
           <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
           </label>
-          <label class="logo">Logo</label>
+          <label class="logo"><a href="<?php bloginfo('home') ?> ">Logo</a></label>
           <ul>
-            <li> <a href="#" class="active">home</a></li>
+            <li> <a href="http://localhost/SITES%20CLIENTES/WORKBOX/WP/">HOME</a></li>
             <li> <a href="http://localhost/SITES%20CLIENTES/WORKBOX/WP/index.php/portfolio/">PORTFÓLIO</a></li>
             <li> <a href="http://localhost/SITES%20CLIENTES/WORKBOX/WP/index.php/sobre-nos/">sobre nos</a></li>
-            <li> <a href="http://localhost/SITES%20CLIENTES/WORKBOX/WP/index.php/sobre-nos/">CLIENTE</a></li>
+            <li> <a href="http://localhost/SITES%20CLIENTES/WORKBOX/WP/index.php/equipe/">EQUIPE</a></li>
             
           </ul>
         </nav>
