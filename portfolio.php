@@ -28,7 +28,7 @@ Text Domain: THEMA WORKBOX
   </div>
   <div class="container">
     <div class="content">
-      <h3>titulo</h3>
+      <h3>cliente</h3>
       <div class="content-box">
         <div class="content-esquerdo">
           <p>texto a esquerda</p>
@@ -45,7 +45,7 @@ Text Domain: THEMA WORKBOX
 
     </div>
     <div class="content">
-      <h3>titulo</h3>
+      <h3>cliente</h3>
       <div class="content-box">
         <div class="content-esquerdo">
           <p>texto a esquerda</p>

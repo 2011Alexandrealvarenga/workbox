@@ -16,5 +16,16 @@ Text Domain: THEMA WORKBOX
  ?>
 
 <?php get_header(); ?>
-<h2>Sobre Nós</h2>
+<section class="about">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2>Sobre Nós</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nihil dolorem consequuntur saepe unde et eligendi harum delectus iusto minima excepturi sit ipsam sint aliquam ab cum, vitae, at ipsa sapiente facilis reprehenderit. Adipisci temporibus harum, consectetur accusantium voluptatum aliquid, dignissimos molestiae. Assumenda qui mollitia ipsa impedit doloremque sequi! Earum!</p>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
 <?php get_footer(); ?>
