@@ -26,6 +26,7 @@ h1,h2,h3{
 #edf2f4 prata
 #ef233c vermelho claro
 #d90429 vermelho 
+#white: branco;
 */
 /******************variaveis*/
 $preto: #2b2d42;
@@ -33,7 +34,8 @@ $chumbo: #8d99ae;
 $cinhza: #e5e5e5;
 $prata: #edf2f4; 
 $vermelho-c: #ef233c;
-$vermelho: #d90429;  
+$vermelho: #d90429; 
+$branco: #fff; 
 
 
 /******************header*/
@@ -227,7 +229,49 @@ a.active,a:hover{
 
 
 
+.fazemos{
+  height: auto;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.fazemos .content{
+  height: auto;
+  background: white;
+  
+}
+.fazemos .content .content-box{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fazemos .content .content-box .item-1{
+  height: 150px;
+  width: 200px;
+  margin: 20px;
+  border-radius: 4px;
+  background: $prata;
+  border: none;  
+}
 
+.fazemos .content .content-box .item-2{
+  height: 150px;
+  width: 200px;
+  object-fit: cover;
+  margin: 20px;
+  border-radius: 4px;
+
+  background: url(1.jpg);
+  background-repeat: no-repeat; 
+  
+}
+.fazemos .content .content-box .item-2 img{
+  height: 150px;
+  width: 200px;
+  object-fit: cover;
+}
 
 .fazemos .content .content-box .front{
   justify-content: center;
@@ -274,57 +318,13 @@ a.active,a:hover{
 
 /**/
 
-.fazemos{
-  height: auto;
-  background: lightgreen;
-  justify-content: center;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  padding: 20px 0;
-}
-.fazemos .content{
-  height: auto;
-  background: white;
-  
-}
-.fazemos .content .content-box{
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-}
-.fazemos .content .content-box .item-1{
-  height: 150px;
-  width: 200px;
-  margin: 20px;
-  border-radius: 4px;
-  background: lightgreen;
 
-  
-}
-
-.fazemos .content .content-box .item-2{
-  height: 150px;
-  width: 200px;
-  object-fit: cover;
-  margin: 20px;
-  border-radius: 4px;
-
-  background: url(1.jpg);
-  background-repeat: no-repeat; 
-  
-}
-.fazemos .content .content-box .item-2 img{
-  height: 150px;
-  width: 200px;
-  object-fit: cover;
-}
 
 
 /**************************empresa*/
 .empresa{
   height: auto;
-  background: lightblue;
+  background: $prata;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -337,7 +337,7 @@ a.active,a:hover{
   padding: 0 20px 20px 20px;
 }
 .empresa .content-gallery{
-  background: lightgreen;
+  background: $branco;
   margin: 30px 0;
 }
 
