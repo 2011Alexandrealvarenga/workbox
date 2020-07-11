@@ -98,28 +98,65 @@
               <h3>fazemos</h3>
             </div>
             <div class="content-box">
-              <div class="item-2">
-                <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
-                
+              <div class="item-1 card ">
+                <div class="front">
+                  <h5>porta</h5>
+                </div>
+                <div class="card-body">
+                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+                </div>
               </div>
-              <div class="item-1">
-                <h5>porta</h5>
+              <div class="item-1 card ">
+                <div class="front">
+                  <h5>porta</h5>
+                </div>
+                <div class="card-body">
+                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+                </div>
               </div>
-              <div class="item-1">
-                <h5>janela</h5>
+              <div class="item-1 card ">
+                <div class="front">
+                  <h5>porta</h5>
+                </div>
+                <div class="card-body">
+                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+                </div>
               </div>
-              <div class="item-1">
-                <h5>Estrutura Metálica</h5>
+              <div class="item-1 card ">
+                <div class="front">
+                  <h5>porta</h5>
+                </div>
+                <div class="card-body">
+                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+                </div>
               </div>
-              <div class="item-1">
-                <h5>Cobertura</h5>
+              <div class="item-1 card ">
+                <div class="front">
+                  <h5>porta</h5>
+                </div>
+                <div class="card-body">
+                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+                </div>
               </div>
-              <div class="item-1">
-                <h5>Guarda Copo</h5>
+              <div class="item-1 card ">
+                <div class="front">
+                  <h5>porta</h5>
+                </div>
+                <div class="card-body">
+                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+                </div>
               </div>
-              <div class="item-1">
-                <h5>corrimão</h5>
+              <div class="item-1 card ">
+                <div class="front">
+                  <h5>porta</h5>
+                </div>
+                <div class="card-body">
+                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+                </div>
               </div>
+              
+
+
             </div>
           </div>
           

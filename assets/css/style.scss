@@ -198,31 +198,68 @@ a.active,a:hover{
   align-items: center;
   display: flex;
 }
-/*
-.banner .content-all-banner .carousel .carousel-inner .item .desc{
-  position: absolute;
-  color: white;
-  width: 100%;
-  background: rgba(0,0,0,0.2);
-  max-width: 500px;
+
+
+
+/**************************fazemos*/
+
+
+
+
+
+
+
+
+
+
+
+.fazemos .content .content-box .front{
   justify-content: center;
-  align-items: center;
   display: flex;
+  align-items: center;
+}
+.fazemos .content .content-box .card{
+  height: 150px;
+  width: 200px;
+  cursor: pointer;
 }
 
-.banner .content-all-banner .carousel .carousel-inner .item .titulo{
+.fazemos .content .content-box .front, 
+.fazemos .content .content-box .card-body{
+  padding: 0;
+  height: 150px;
+  width: 200px;
+  object-fit: cover;
+  overflow: hidden;
+  backface-visibility: hidden;
   position: absolute;
-  top: 10%;
-  color: white;
-  width: 100%;
-  background: rgba(0,0,0,0.2);
-  max-width: 700px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
+  transition: transform .6s linear;
 }
-*/
-/**************************fazemos*/
+
+.fazemos .content .content-box .card-body img{
+  height: 100%;
+}
+.fazemos .content .content-box .front{
+  transform: perspective(600px) rotateY(0deg);
+}
+.fazemos .content .content-box .card-body{
+  background: #f1f1f1;
+  transform: perspective(600px) rotateY(180deg);
+}
+.fazemos .content .content-box .card:hover > .front{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.fazemos .content .content-box .card:hover > .card-body{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+
+
+
+
+
+/**/
+
 .fazemos{
   height: auto;
   background: lightgreen;
@@ -248,9 +285,7 @@ a.active,a:hover{
   margin: 20px;
   border-radius: 4px;
   background: lightgreen;
-  justify-content: center;
-  display: flex;
-  align-items: center;
+
   
 }
 
@@ -301,8 +336,10 @@ a.active,a:hover{
   width: 150px;
   height: 120px;
   object-fit: cover;
-  margin: 10px;
 } 
+
+
+
 
 /************************************************* pages */
 /*teste conteudo portfolio*/
