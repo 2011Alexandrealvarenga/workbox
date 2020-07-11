@@ -197,6 +197,25 @@ a.active,a:hover{
 
 
 /*teste conteudo portfolio*/
+.content-equipe{
+  display: flex;
+  height: auto;
+}
+.content .content-equipe .desc{ 
+  width: 50%;
+  background: lightblue;
+}
+.content .content-equipe .photo{
+  justify-content: center;
+  display: flex;
+  width: 50%;
+}
+.content .content-equipe .photo img{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
 .content-box{
   display: flex;
 }

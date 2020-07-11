@@ -44,23 +44,7 @@ Text Domain: THEMA WORKBOX
       
 
     </div>
-    <div class="content">
-      <h3>cliente</h3>
-      <div class="content-box">
-        <div class="content-esquerdo">
-          <p>texto a esquerda</p>
-          portoes <br>
-          material <br>
-          endereço <br>
-          contato <br>
-        </div> 
-        <div class="content-direita">
-          <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
-        </div> 
-      </div>
-      
-
-    </div>
+    
   </div>
   
 </section>

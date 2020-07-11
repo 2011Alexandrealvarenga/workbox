@@ -16,5 +16,32 @@ Text Domain: THEMA WORKBOX
  ?>
 
 <?php get_header(); ?>
-<p>equipe</p>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h2>equipe</h2>
+    </div>
+  </div>
+  <div class="content mt-5">
+    <div class="content-equipe">
+      <div class="desc">
+        <p>descrição</p>
+      </div>
+      <div class="photo">
+        <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+      </div>
+    </div>
+  </div>
+  <div class="content mt-5">
+    <div class="content-equipe">
+      <div class="desc">
+        <p>descrição 2</p>
+      </div>
+      <div class="photo">
+        <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+      </div>
+    </div>
+  </div>
+</div>
+
 <?php get_footer(); ?>
