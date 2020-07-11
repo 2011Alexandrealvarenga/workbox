@@ -178,6 +178,18 @@ a.active, a:hover {
   object-fit: cover;
   margin: 10px; }
 
+/*teste conteudo portfolio*/
+.content-box {
+  display: flex; }
+
+.content-esquerdo {
+  width: 50%;
+  background: lightblue; }
+
+.content-direita {
+  width: 50%;
+  background: lightgreen; }
+
 /**************************footer*/
 footer .contact .content-phone .item-phone,
 footer .contact .content-phone .item-zap,
