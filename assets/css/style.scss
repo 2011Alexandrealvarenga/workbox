@@ -164,6 +164,7 @@ a.active,a:hover{
 }
 
 /**************************banner*/
+/*
 .content-all-banner{
   background: lightblue;
   height: auto;
@@ -171,26 +172,27 @@ a.active,a:hover{
   display: grid;
   align-content: center;
 }
-.content-all-banner .content-title{
+*/
+.content-title{
   background: lightgreen;
   text-align: center;
 }
-.content-banner .carousel .carousel-inner .carousel-item{
+.carousel .carousel-inner .carousel-item{
   position: relative;
   align-content: center;
   display: flex;
   justify-content: center;
 }
-.content-banner .carousel .carousel-inner .carousel-item .img-carousel{
+.carousel .carousel-inner .carousel-item .img-carousel{
   height: 600px;
 }
-.banner .content-all-banner .carousel .carousel-inner .item {
+.banner  .carousel .carousel-inner .item {
   position: absolute;
   top: 10%;
   width: 100%;
   max-width: 700px;
 }
-.banner .content-all-banner .carousel .carousel-inner .item .titulo{
+.banner .carousel .carousel-inner .item .titulo{
   color: white;
   background: rgba(0,0,0,0.2);
   
@@ -198,7 +200,7 @@ a.active,a:hover{
   align-items: center;
   display: flex;
 }
-.banner .content-all-banner .carousel .carousel-inner .item .trabalhamos{
+.banner .carousel .carousel-inner .item .trabalhamos{
   color: white;
   background: rgba(0,0,0,0.2);
   max-width: 300px;
@@ -207,7 +209,7 @@ a.active,a:hover{
   align-items: center;
   display: flex;
 }
-.banner .content-all-banner .carousel .carousel-inner .item .mat{
+.banner .carousel .carousel-inner .item .mat{
   color: white;
   background: rgba(0,0,0,0.2);
   max-width: 300px;
