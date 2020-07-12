@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/fontello.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/style.css">
   <!--galeria -->
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/magnific-popup.css.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
   
  
 </head>
