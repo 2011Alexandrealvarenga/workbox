@@ -46,10 +46,10 @@
   <!-- MENU -->
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <!--galeria -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-  <script>
-      baguetteBox.run('.tz-gallery');
-  </script>
+  <script src="<?php bloginfo('template_url') ?>/js/jquery.magnific-popup.min.js"></script>
+  <script src="<?php bloginfo('template_url') ?>/js/gallery.js"></script>
+  <script src="<?php bloginfo('template_url') ?>/js/jqpage.js"></script>
+
   <!-- -->
   <script src="<?php bloginfo('template_url') ?>/assets/js/jquery.js"></script>
   <script src="<?php bloginfo('template_url') ?>/assets/js/popper.js"></script>
