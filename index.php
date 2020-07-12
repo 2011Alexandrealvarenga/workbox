@@ -204,10 +204,31 @@ Text Domain: THEMA WORKBOX
             
            
             <div class="image">
-              <?php the_content(); ?>
+              <?php if(have_posts()) : while (have_posts()) : the_post();?>
 
+                <?php the_content(); ?>
+
+
+              <?php endwhile; ?>
+              <?php else : get_404_template(); endif;?> 
             </div>
-             
+                
+
+            <!-- 
+              <div class="conteudo-item">
+
+              
+              <?php if(have_posts()) : while (have_posts()) : the_post();?>
+                <div class="item">
+                  <?php the_content(); ?>
+                  
+                </div>
+
+               <?php endwhile; ?>
+                <?php else : get_404_template(); endif;?> 
+
+              </div>
+             -->
           </div>
         </div>
       </div>
