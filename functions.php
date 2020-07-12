@@ -50,6 +50,8 @@ function create_post_type(){
 
 add_action('init','create_post_type');
 
+
+
 // DEFINIR AS MINIATURAS DOS POSTS
 add_theme_support('post-thumbnails');
 set_post_thumbnail_size(1280,720,'true');//ajusta a imagem para post em rede sociais |true recorta a imagem

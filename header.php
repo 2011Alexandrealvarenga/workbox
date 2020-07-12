@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
-  <meta charset="UTF-8">
+  <meta <?php bloginfo('charset'); ?>>
+  <!-- titulo dinamico -->
   <title><?php geraTitle(); ?></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/bootstrap.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/style.css">
+  <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+  <!-- caber na tela cel -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--compatibilidade -->
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <!--icones -->
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/fontello.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/style.css">
   <!--galeria -->
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/magnific-popup.css">
+
 
   
  

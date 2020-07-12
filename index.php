@@ -53,6 +53,7 @@ Text Domain: THEMA WORKBOX
                   ?>
 
                     <div class="carousel-item <?php $c++; if($c == 1) { echo ' active'; } ?>">
+                     
                       <div class="item">
                         <div class="titulo">
                           <h2>Workbox Serralheria</h2>
@@ -64,6 +65,7 @@ Text Domain: THEMA WORKBOX
                           <h3>Ferro e Alumínio</h3>
                         </div>
                       </div>
+                    
                         
                       
 
@@ -89,12 +91,12 @@ Text Domain: THEMA WORKBOX
 
                 <a class="carousel-control-prev" href="#carouselBSWP" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon"></span>
-                  <span class="sr-only">Anterior</span>
+                  <span class="sr-only"></span>
                 </a>
 
                 <a class="carousel-control-next" href="#carouselBSWP" role="button" data-slide="next">
                   <span class="carousel-control-next-icon"></span>
-                  <span class="sr-only">Próximo</span>
+                  <span class="sr-only"></span>
                 </a>
               
               </div>
