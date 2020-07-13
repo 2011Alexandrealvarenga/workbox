@@ -1,8 +1,7 @@
 <?php 
 
 
-
-//ARGS DO POST
+//BANNER
 function create_post_type(){
 
   register_post_type('banners',
@@ -26,6 +25,8 @@ add_action('init','create_post_type');
 // DEFINIR AS MINIATURAS DOS POSTS
 add_theme_support('post-thumbnails');
 set_post_thumbnail_size(1280,720,'true');//ajusta a imagem para post em rede sociais |true recorta a imagem
+
+
 
 
 

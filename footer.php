@@ -51,11 +51,11 @@
 
 -->
 
-<!--galleria -->
+<!--galleria 
 <script src="<?php bloginfo('template_url') ?>/assets/js/jqpage.js"></script>
 <script src="<?php bloginfo('template_url') ?>/assets/js/gallery.js"></script>
 <script src="<?php bloginfo('template_url') ?>/assets/js/jquery.magnific-popup.min.js"></script>
-
+-->
 
 
 <!-- -->

@@ -153,49 +153,54 @@ a.active, a:hover {
   align-content: center;
 }
 */
-.content-title {
+/*
+.content-title{
   background: lightgreen;
-  text-align: center; }
-
-.carousel .carousel-inner .carousel-item {
+  text-align: center;
+}
+.carousel .carousel-inner .carousel-item{
   position: relative;
   align-content: center;
   display: flex;
-  justify-content: center; }
-
-.carousel .carousel-inner .carousel-item .img-carousel {
-  height: 600px; }
-
-.banner .carousel .carousel-inner .item {
+  justify-content: center;
+}
+.carousel .carousel-inner .carousel-item .img-carousel{
+  height: 600px;
+}
+.banner  .carousel .carousel-inner .item {
   position: absolute;
   top: 10%;
   width: 100%;
-  max-width: 700px; }
-
-.banner .carousel .carousel-inner .item .titulo {
+  max-width: 700px;
+}
+.banner .carousel .carousel-inner .item .titulo{
   color: white;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0,0,0,0.2);
+  
   justify-content: center;
   align-items: center;
-  display: flex; }
-
-.banner .carousel .carousel-inner .item .trabalhamos {
+  display: flex;
+}
+.banner .carousel .carousel-inner .item .trabalhamos{
   color: white;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0,0,0,0.2);
   max-width: 300px;
   margin-top: 10px;
   justify-content: center;
   align-items: center;
-  display: flex; }
-
-.banner .carousel .carousel-inner .item .mat {
+  display: flex;
+}
+.banner .carousel .carousel-inner .item .mat{
   color: white;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0,0,0,0.2);
   max-width: 300px;
   margin-top: 10px;
   justify-content: center;
   align-items: center;
-  display: flex; }
+  display: flex;
+}
+
+
 
 /**************************fazemos*/
 .fazemos {
