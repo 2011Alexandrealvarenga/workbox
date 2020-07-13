@@ -22,6 +22,7 @@ Text Domain: THEMA WORKBOX
       <div class="col">
         <div class="title">
           <h2>PORTFOLIO</h2>
+          <h3>Confira trabalhos que realizamos:</h3>
         </div>
       </div>
     </div>

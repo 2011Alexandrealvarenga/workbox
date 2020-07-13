@@ -401,12 +401,25 @@ footer .map{
 .portfolio{
   min-height: 100vh;
 }
+
+.portfolio .title{
+  margin-top: 100px;
+  padding: 20px;
+}
+
 .portfolio .content{
-  background: lightgray;
   display: flex;
 }
 .portfolio .content .content-box{
-  width: 50%;
+  width: 45%;
+  margin: 0 5px;
+  background: lightgray;
+}
+.portfolio .content .content-box .texto{
+  padding: 10px;
+}
+.portfolio .content .content-box .texto p{
+  text-align: justify;
 }
 
 
