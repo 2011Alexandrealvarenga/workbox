@@ -19,24 +19,32 @@ Text Domain: THEMA WORKBOX
 <div class="container">
   <div class="row">
     <div class="col">
-      <h2>equipe</h2>
+      <h2>EQUIPE</h2>
     </div>
   </div>
   <div class="content mt-5">
+
     <div class="content-equipe">
-      <div class="">
-        <p>descrição</p>
+      <div class="desc">
+        <h4>Nome: Henrique</h4>
+        <p>Função: Diretor</p>
       </div>
-      
+      <div class="foto">
         <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+      </div>
+        
       
     </div>
     <div class="content-equipe">
-      <div class="">
-        <p>descrição</p>
-      </div>
       
+      <div class="foto">
         <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+      </div>
+      <div class="desc">
+        <h4>Nome: Henrique</h4>
+        <p>Função: Diretor</p>
+      </div>
+        
       
     </div>
   </div>

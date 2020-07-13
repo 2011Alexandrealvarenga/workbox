@@ -392,25 +392,24 @@ footer .map {
 /************************************************* pages */
 /************** equipe*/
 .content .content-equipe {
-  display: grid;
-  height: auto;
-  margin-bottom: 2rem; }
-
-.content .content-equipe {
-  padding: 2rem; }
+  display: flex;
+  margin-bottom: 20px; }
 
 .content .content-equipe .desc {
   width: 50%;
-  background: lightblue; }
-
-.content .content-equipe .photo {
   justify-content: center;
-  display: flex;
-  width: 50%; }
+  align-content: center;
+  display: grid;
+  background: #edf2f4; }
 
-.content .content-equipe .photo img {
-  height: 300px;
-  width: 300px;
+.content .content-equipe .foto {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex; }
+
+.content .content-equipe .foto img {
+  width: 350px;
   object-fit: cover;
   border-radius: 50%; }
 
