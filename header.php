@@ -68,7 +68,8 @@
           <label for="check" class="checkbtn">
             <i class="fas fa-bars"></i>
           </label>
-          <label class="logo"><a href="<?php bloginfo('home') ?> ">Logo</a></label>
+          <label class="logo"><a href="<?php bloginfo('home') ?> "><img  class="img-logo" src="<?php bloginfo('template_url'); ?>/assets/img/logo.png"></a></label>
+          <h3>WorkBox</h3>
           <ul>
             <li> <a href="http://localhost/SITES%20CLIENTES/WORKBOX/WP/">HOME</a></li>
             <li> <a href="http://localhost/SITES%20CLIENTES/WORKBOX/WP/index.php/portfolio/">PORTFÓLIO</a></li>

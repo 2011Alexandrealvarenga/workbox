@@ -73,16 +73,23 @@ header .content-contact p {
   padding-right: 15px; }
 
 /**************************MENU*/
+header .top-social-2 nav .logo .img-logo {
+  width: 70px; }
+
+header .top-social-2 nav h3 {
+  color: #fff; }
+
 nav {
   background: #2b2d42;
   height: 80px;
-  width: 100%; }
+  width: 100%;
+  display: block ruby; }
 
 label.logo {
   color: white;
   font-size: 35px;
   line-height: 80px;
-  padding: 0 100px;
+  padding: 0 20px 0 70px;
   font-weight: bold; }
 
 nav ul {
@@ -154,6 +161,9 @@ a.active, a:hover {
   #check:checked ~ ul {
     left: 0; } }
 /**************************banner*/
+.carousel {
+  margin-top: 100px; }
+
 .carousel .item {
   position: absolute;
   width: 100%;

@@ -90,16 +90,24 @@ header .content-contact p{
 }
 
 /**************************MENU*/
+
+header .top-social-2 nav .logo .img-logo{
+  width: 70px;
+}
+header .top-social-2 nav h3{
+  color: $branco;
+}
 nav{
   background: $preto;
   height: 80px;
   width: 100%;
+  display: block ruby;
 }
 label.logo{
   color: white;
   font-size: 35px;
   line-height: 80px;
-  padding: 0 100px;
+  padding: 0 20px 0 70px;
   font-weight: bold;
 }
 nav ul{
@@ -178,6 +186,9 @@ a.active,a:hover{
 }
 
 /**************************banner*/
+.carousel{
+  margin-top: 100px;
+}
 
 .carousel .item{
   position: absolute;
