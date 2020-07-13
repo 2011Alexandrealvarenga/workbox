@@ -121,7 +121,8 @@ header .checkbtn {
   line-height: 80px;
   margin-right: 40px;
   cursor: pointer;
-  display: none; }
+  display: none;
+  margin-bottom: 0; }
 
 header #check {
   display: none; }
@@ -149,6 +150,11 @@ header #check {
 .carousel .item .trabalhamos,
 .carousel .item .mat {
   width: 50%; }
+
+.carousel .carousel-inner .carousel-item img {
+  width: 1200px;
+  height: 800px;
+  object-fit: cover; }
 
 /**************************fazemos*/
 .fazemos {
@@ -342,8 +348,37 @@ footer .map {
   width: 600px;
   text-align: justify; }
 
+/*
+767 a 992
+541 a 766
+410 a 540
+350 a 409
+*/
 /*************************** celular */
-@media (max-width: 952px) {
+@media (min-width: 767px) and (max-width: 992px) {
+  .carousel .carousel-inner .carousel-item img {
+    width: 1200px;
+    height: 600px;
+    object-fit: cover; } }
+/******************************** 541 a 766*/
+@media (min-width: 541px) and (max-width: 766px) {
+  .carousel .carousel-inner .carousel-item img {
+    width: 1200px;
+    height: 500px;
+    object-fit: cover; } }
+/******************************** 410 a 540*/
+@media (min-width: 410px) and (max-width: 540px) {
+  .carousel .carousel-inner .carousel-item img {
+    width: 1200px;
+    height: 400px;
+    object-fit: cover; } }
+/******************************** a 409*/
+@media (max-width: 409px) {
+  .carousel .carousel-inner .carousel-item img {
+    width: 1200px;
+    height: 300px;
+    object-fit: cover; } }
+@media (max-width: 992px) {
   /*menu*/
   header label.logo {
     font-size: 30px;
@@ -353,10 +388,12 @@ footer .map {
     font-size: 16px; }
 
   /*menu*/ }
+/********************************858*/
 @media (max-width: 858px) {
   /*menu*/
   header .checkbtn {
-    display: block; }
+    display: block;
+    margin-bottom: 0; }
 
   header ul {
     position: fixed;
@@ -381,8 +418,43 @@ footer .map {
     color: #0082e6; }
 
   #check:checked ~ ul {
-    left: 0; }
+    left: 0;
+    margin-top: 20px; }
 
-  /*menu*/ }
+  /*menu*/
+  /********************************767*/ }
+@media (max-width: 858px) and (max-width: 767px) {
+  .top-social .after-media {
+    margin: 0;
+    display: inline;
+    padding: 0; } }
+@media (max-width: 858px) {
+  /********************************600*/ }
+@media (max-width: 858px) and (max-width: 600px) {
+  header .content-contact .content-phone .item-phone .icon-phone,
+  header .content-contact .content-phone .item-phone p,
+  .item-email .icon-mail,
+  .item-email p {
+    display: none; }
+
+  header .top-social-2 nav h3 {
+    padding-left: 0; }
+
+  header label.logo {
+    padding-left: 30px; }
+
+  /*carousel*/
+  .carousel .item {
+    top: 10px;
+    left: 10px; }
+
+  .carousel .item h2,
+  .carousel .item h3 {
+    font-size: 20px; }
+
+  .carousel .item h2,
+  .carousel .item h3,
+  .carousel .item p {
+    padding: 10px !important; } }
 
 /*# sourceMappingURL=style.css.map */

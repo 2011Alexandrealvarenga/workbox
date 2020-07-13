@@ -28,7 +28,7 @@
 </style>
 <header>
   <div class="container-fluid top-social">
-    <div class="container">
+    <div class="container after-media">
       <div class="row">
         <div class="col">
           <div class="content-contact">
