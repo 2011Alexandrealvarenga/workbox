@@ -253,14 +253,15 @@ header #check {
 .empresa .content-gallery {
   background: #fff;
   margin: 30px 0;
-  border-radius: 4px; }
+  border-radius: 4px;
+  width: 100%; }
 
 .empresa .content-gallery .image {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
 
-.empresa .content-gallery .image .size-thumbnail {
+.empresa .content-gallery .size-thumbnail {
   width: 250px;
   height: 200px;
   object-fit: cover;
@@ -359,13 +360,22 @@ footer .map {
   .carousel .carousel-inner .carousel-item img {
     width: 1200px;
     height: 600px;
+    object-fit: cover; }
+
+  .empresa .content-gallery .size-thumbnail {
+    width: 220px;
+    height: 180px;
     object-fit: cover; } }
 /******************************** 541 a 766*/
 @media (min-width: 541px) and (max-width: 766px) {
   .carousel .carousel-inner .carousel-item img {
     width: 1200px;
     height: 500px;
-    object-fit: cover; } }
+    object-fit: cover; }
+
+  .empresa .content-gallery .size-thumbnail {
+    width: 150px;
+    height: 130px; } }
 /******************************** 410 a 540*/
 @media (min-width: 410px) and (max-width: 540px) {
   .carousel .carousel-inner .carousel-item img {
@@ -377,7 +387,11 @@ footer .map {
   .fazemos .content .content-box .card-body,
   .fazemos .content .content-box .card {
     height: 100px;
-    width: 150px; } }
+    width: 150px; }
+
+  .empresa .content-gallery .size-thumbnail {
+    width: 110px;
+    height: 90px; } }
 /******************************** a 409*/
 @media (max-width: 409px) {
   .carousel .carousel-inner .carousel-item img {
@@ -389,7 +403,11 @@ footer .map {
   .fazemos .content .content-box .card-body,
   .fazemos .content .content-box .card {
     height: 100px;
-    width: 120px; } }
+    width: 120px; }
+
+  .empresa .content-gallery .size-thumbnail {
+    width: 90px;
+    height: 60px; } }
 @media (max-width: 992px) {
   /*menu*/
   header label.logo {
