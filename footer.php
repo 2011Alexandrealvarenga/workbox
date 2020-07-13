@@ -52,14 +52,22 @@
 -->
 
 <!--galleria 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
 <script src="<?php bloginfo('template_url') ?>/assets/js/jqpage.js"></script>
-<script src="<?php bloginfo('template_url') ?>/assets/js/gallery.js"></script>
+
+gallery 
+
 <script src="<?php bloginfo('template_url') ?>/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="<?php bloginfo('template_url') ?>/assets/js/gallery.js"></script>
 -->
 
 
-<!-- -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+
+
+
+
+
 <!--carousel -->
 <script src="<?php bloginfo('template_url') ?>/assets/js/jquery.js"></script>
 <script src="<?php bloginfo('template_url') ?>/assets/js/popper.js"></script>

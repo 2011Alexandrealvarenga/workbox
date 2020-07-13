@@ -178,14 +178,13 @@ Text Domain: THEMA WORKBOX
             </div>
 
               
-              <?php if(have_posts()) : while (have_posts()) : the_post();?>
+             
                 <div class="item">
                   <?php the_content(); ?>
                   
                 </div>
 
-               <?php endwhile; ?>
-                <?php else : get_404_template(); endif;?> 
+              
 
               </div>
           

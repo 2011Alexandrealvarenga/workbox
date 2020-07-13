@@ -14,10 +14,12 @@
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <!--icones -->
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/fontello.css">
-  <!--galeria -->
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/magnific-popup.css">
+  <!--galeria 
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/magnific-popup.css">
+  -->
+  
 
-
+ 
   
  
 </head>
