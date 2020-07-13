@@ -5,8 +5,8 @@
   <!-- titulo dinamico -->
   <title><?php geraTitle(); ?></title>
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/bootstrap.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/style.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css"> 
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
   <!-- caber na tela cel -->
   <meta name="viewport" content="width=device-width, initial-scale=1">

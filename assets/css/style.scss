@@ -350,7 +350,7 @@ a.active,a:hover{
   flex-wrap: wrap;
   justify-content: center;
 }
-.empresa .content-gallery .image .img-galery{
+.empresa .content-gallery .image .size-thumbnail{
   width: 250px;
   height: 200px;
   object-fit: cover;
@@ -472,11 +472,17 @@ footer .map{
 
 
 /************************************************* pages */
-/*teste conteudo portfolio*/
-.content-equipe{
-  display: flex;
+/************** equipe*/
+.content .content-equipe{
+  display: grid;
   height: auto;
+
+  margin-bottom: 2rem;
 }
+.content .content-equipe{
+  padding: 2rem;
+}
+
 .content .content-equipe .desc{ 
   width: 50%;
   background: lightblue;
@@ -492,17 +498,41 @@ footer .map{
   object-fit: cover;
   border-radius: 50%;
 }
-.content-box{
+
+
+
+/*************** portfolio*/
+.portfolio{
+  min-height: 100vh;
+}
+.portfolio .content{
+  background: lightgray;
   display: flex;
 }
-.content-esquerdo{
+.portfolio .content .content-box{
   width: 50%;
-  background: lightblue;
 }
-.content-direita{
-  width: 50%;
-  background: lightgreen;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**************************sobre nos*/

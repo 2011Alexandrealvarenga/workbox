@@ -26,26 +26,39 @@ Text Domain: THEMA WORKBOX
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="content">
-      <h3>cliente</h3>
-      <div class="content-box">
-        <div class="content-esquerdo">
-          <p>texto a esquerda</p>
-          portoes <br>
-          material <br>
-          endereço <br>
-          contato <br>
-        </div> 
-        <div class="content-direita">
-          <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
-        </div> 
-      </div>
-      
-
-    </div>
-    
-  </div>
   
+  <div class="container">
+      <?php 
+        // args
+        $my_args = array(
+          'post_type' => 'post',          
+          'category_name' => 'cliente'
+        );
+
+        // query
+        $my_query = new WP_Query ( $my_args );
+      ?>
+
+    <div class="content">   
+    <?php if( $my_query->have_posts()) : while( $my_query->have_posts() ) : $my_query->the_post(); ?>
+      <div class="content-box">
+        <div class="texto">
+          <h3><?php the_title(); ?></h3>
+          <p><?php the_content(); ?></p>
+          
+        
+        </div> 
+        <!--
+          <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+        -->
+      </div>
+    <?php endwhile; ?>
+    <?php else : get_404_template();  endif; ?>
+     
+    </div>
+ 
+  </div>
+
+
 </section>
 <?php get_footer(); ?>
