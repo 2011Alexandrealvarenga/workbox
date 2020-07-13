@@ -16,17 +16,29 @@ Text Domain: THEMA WORKBOX
  ?>
 <?php get_header(); ?>
 <body>
-<div class="container">
+<div class="container-fluid d-flex justify-content-center">
     <div class="row">
         <div id="carouselBSWP" class="carousel slide" data-ride="carousel">
-          
+            
+            <div class="item">
+              <div class="titulo">
+                <h2>Workbox Serralheria</h2>
+              </div>
+              <div class="trabalhamos">
+                <h5>Trabalhamos com</h5>
+              </div>
+              <div class="mat">
+                <h3>Ferro e Alumínio</h3>
+              </div>
+            </div>
+
             <div class="carousel-inner">
             
               <?php 
               // args
               $my_args_banner = array(
                 'post_type' => 'banners',
-                'posts_per_page' => 3,
+                
               );
 
               // query
@@ -43,9 +55,7 @@ Text Domain: THEMA WORKBOX
                 <div class="carousel-item <?php $c++; if($c == 1) { echo ' active'; } ?>">
                   <?php the_post_thumbnail('post-thumbnail', array('class' => 'img-fluid rounded')) ?>
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>
-                      <?php the_title(); ?>
-                    </h5>
+                    
                   </div>
                 </div>
 

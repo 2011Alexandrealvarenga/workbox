@@ -200,7 +200,26 @@ a.active, a:hover {
   display: flex;
 }
 
+*/
+.carousel .item {
+  position: absolute;
+  width: 100%;
+  top: 40px;
+  left: 40px; }
 
+.carousel .item h2,
+.carousel .item h5,
+.carousel .item h3 {
+  color: white;
+  position: relative;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.2);
+  text-align: center; }
+
+.carousel .item .titulo,
+.carousel .item .trabalhamos,
+.carousel .item .mat {
+  width: 50%; }
 
 /**************************fazemos*/
 .fazemos {
