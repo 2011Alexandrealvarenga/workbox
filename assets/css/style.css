@@ -33,7 +33,14 @@ h1, h2, h3 {
 header .top-social {
   background: #2b2d42;
   position: fixed;
-  z-index: 1; }
+  z-index: 7; }
+
+header .top-social-2 {
+  background: #2b2d42;
+  position: fixed;
+  padding: 0;
+  z-index: 6;
+  top: 22px; }
 
 header .content-contact {
   display: inline;
@@ -67,7 +74,7 @@ header .content-contact p {
 
 /**************************MENU*/
 nav {
-  background: #0082e6;
+  background: #2b2d42;
   height: 80px;
   width: 100%; }
 
@@ -80,7 +87,8 @@ label.logo {
 
 nav ul {
   float: right;
-  margin-right: 20px; }
+  margin-right: 20px;
+  margin-bottom: 0; }
 
 nav ul li {
   display: inline-block;

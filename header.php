@@ -59,7 +59,7 @@
   </div>
   
 
-  <div class="container">
+  <div class="container-fluid top-social-2">
     <div class="row">
       <div class="col">
         
