@@ -474,7 +474,15 @@ footer .map{
     height: 400px;
     object-fit: cover;
   }
+  .fazemos .content .content-box .front, .fazemos .content .content-box .card-body,
+  .fazemos .content .content-box .card-body,
+  .fazemos .content .content-box .card{
+    height: 100px;
+    width: 150px;
+  }
+  
 }
+
 /******************************** a 409*/
 @media (max-width: 409px){
   .carousel .carousel-inner .carousel-item img{
@@ -482,6 +490,13 @@ footer .map{
     height: 300px;
     object-fit: cover;
   }
+  .fazemos .content .content-box .front, .fazemos .content .content-box .card-body,
+  .fazemos .content .content-box .card-body,
+  .fazemos .content .content-box .card{
+    height: 100px;
+    width: 120px;
+  }
+
 }
 
 @media (max-width: 992px){

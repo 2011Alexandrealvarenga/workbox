@@ -83,7 +83,7 @@ Text Domain: THEMA WORKBOX
 
 
   <section class="fazemos">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col">
           <div class="content">
@@ -161,7 +161,7 @@ Text Domain: THEMA WORKBOX
     </div>
   </section>
   <section class="empresa">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col d-flex justify-content-center">
           <div class="content">
