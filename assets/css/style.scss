@@ -164,67 +164,7 @@ a.active,a:hover{
 }
 
 /**************************banner*/
-/*
-.content-all-banner{
-  background: lightblue;
-  height: auto;
-  justify-content: center;
-  display: grid;
-  align-content: center;
-}
-*/
 
-
-
-
-/*
-.content-title{
-  background: lightgreen;
-  text-align: center;
-}
-.carousel .carousel-inner .carousel-item{
-  position: relative;
-  align-content: center;
-  display: flex;
-  justify-content: center;
-}
-.carousel .carousel-inner .carousel-item .img-carousel{
-  height: 600px;
-}
-.banner  .carousel .carousel-inner .item {
-  position: absolute;
-  top: 10%;
-  width: 100%;
-  max-width: 700px;
-}
-.banner .carousel .carousel-inner .item .titulo{
-  color: white;
-  background: rgba(0,0,0,0.2);
-  
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-.banner .carousel .carousel-inner .item .trabalhamos{
-  color: white;
-  background: rgba(0,0,0,0.2);
-  max-width: 300px;
-  margin-top: 10px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-.banner .carousel .carousel-inner .item .mat{
-  color: white;
-  background: rgba(0,0,0,0.2);
-  max-width: 300px;
-  margin-top: 10px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-*/
 .carousel .item{
   position: absolute;
   width: 100%;
@@ -384,73 +324,6 @@ a.active,a:hover{
 } 
 /********** teste galeria*/
 
-
-
-
-
-
-
-
-.container.gallery-container {
-    background-color: #fff;
-    color: #35373a;
-    min-height: 100vh;
-    border-radius: 20px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
-}
-
-.gallery-container h1 {
-    text-align: center;
-    margin-top: 70px;
-    font-family: 'Droid Sans', sans-serif;
-    font-weight: bold;
-}
-#baguetteBox-overlay .full-image img{
-  max-height: 85%;
-}
-.gallery-container p.page-description {
-    text-align: center;
-    max-width: 800px;
-    margin: 25px auto;
-    color: #888;
-    font-size: 18px;
-}
-
-.tz-gallery {
-    padding: 40px;
-}
-
-.tz-gallery .lightbox img {
-    width: 100%;
-    margin-bottom: 30px;
-    transition: 0.2s ease-in-out;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-}
-
-
-.tz-gallery .lightbox img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
-}
-
-.tz-gallery img {
-    border-radius: 4px;
-}
-
-.baguetteBox-button {
-    background-color: transparent !important;
-}
-
-
-@media(max-width: 768px) {
-    body {
-        padding: 0;
-    }
-
-    .container.gallery-container {
-        border-radius: 0;
-    }
-}
 
 
 

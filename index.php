@@ -177,23 +177,6 @@ Text Domain: THEMA WORKBOX
               <h3>Confira alguns trabalhos realizados</h3>
             </div>
 
-            
-            
-           
-            <div class="image">
-              <?php if(have_posts()) : while (have_posts()) : the_post();?>
-
-                <?php the_content(); ?>
-
-
-              <?php endwhile; ?>
-              <?php else : get_404_template(); endif;?> 
-            </div>
-                
-
-            <!-- 
-              <div class="conteudo-item">
-
               
               <?php if(have_posts()) : while (have_posts()) : the_post();?>
                 <div class="item">
@@ -205,7 +188,7 @@ Text Domain: THEMA WORKBOX
                 <?php else : get_404_template(); endif;?> 
 
               </div>
-             -->
+          
           </div>
         </div>
       </div>
