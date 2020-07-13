@@ -165,8 +165,10 @@ Text Domain: THEMA WORKBOX
       <div class="row">
         <div class="col d-flex justify-content-center">
           <div class="content">
-            <h3>WORKBOX</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, nemo, quas! Libero voluptates quis, neque quam ratione ipsa labore earum.</p>
+            <h3>Workbox Esquadrias de Alumínio</h3>
+            <p>Fundada em 1993, a Workbox Esquadrias de Alumínio atua com o beneficiamento e a instalação caixilhos de alumínio, execução de guarda-corpo em alumínio e aço, e etc. A empresa atende a demandas em todo o território do Estado de São Paulo.
+
+Somos uma empresa familiar que acredita nas parcerias e oferecemos um atendimento especial, voltado para obras desde pequenos a grandes portes, nossos profissionais tem uma longa experiência no setor da construção civil, atuamos ainda em estrutura metálicas com soluções práticas para todas as demandas.</p>
           </div>
         </div>
       </div>

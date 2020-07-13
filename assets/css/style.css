@@ -31,7 +31,9 @@ h1, h2, h3 {
 /******************variaveis*/
 /******************header*/
 header .top-social {
-  background: #2b2d42; }
+  background: #2b2d42;
+  position: fixed;
+  z-index: 1; }
 
 header .content-contact {
   display: inline;
@@ -346,5 +348,14 @@ footer .map {
 /**************************sobre nos*/
 .about {
   min-height: 100vh; }
+
+.about .box-texto {
+  justify-content: center;
+  align-items: center;
+  display: flex; }
+
+.about .box-texto .texto {
+  width: 600px;
+  text-align: justify; }
 
 /*# sourceMappingURL=style.css.map */
