@@ -115,9 +115,12 @@ header nav ul li a {
   border-radius: 3px;
   text-transform: uppercase; }
 
-header a.active, header a:hover {
-  background: #1b9bff;
-  transition: .5s; }
+header a.active,
+header a:hover {
+  background: #d90429;
+  transition: .5s;
+  color: #fff;
+  text-decoration: none; }
 
 header .checkbtn {
   font-size: 30px;
@@ -346,7 +349,7 @@ footer .map {
 .portfolio .content .content-box {
   width: 45%;
   margin: 0 5px;
-  background: lightgray;
+  background: #edf2f4;
   margin-bottom: 20px; }
 
 .portfolio .content .content-box .texto {

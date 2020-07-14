@@ -135,10 +135,17 @@ header nav ul li a{
   text-transform: uppercase;
 
 }
-header a.active,header a:hover{
-  background: #1b9bff;
+
+header a.active,
+header a:hover{
+  background: $vermelho;
   transition: .5s;
+  color: $branco;
+  text-decoration: none;
 }
+
+
+
 header .checkbtn{
   font-size: 30px;
   color: white;
@@ -421,7 +428,7 @@ footer .map{
 .portfolio .content .content-box{
   width: 45%;
   margin: 0 5px;
-  background: lightgray;
+  background: $prata;
   margin-bottom: 20px;
 }
 .portfolio .content .content-box .texto{
