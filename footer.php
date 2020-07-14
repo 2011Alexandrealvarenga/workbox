@@ -64,17 +64,13 @@
 <!--galleria -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+
 <script src="<?php bloginfo('template_url') ?>/assets/js/jqpage.js"></script>
 
  
 
 <script src="<?php bloginfo('template_url') ?>/assets/js/jquery.magnific-popup.min.js"></script>
 <script src="<?php bloginfo('template_url') ?>/assets/js/gallery.js"></script>
-
-
-
-
-
 
 
 
