@@ -395,8 +395,6 @@ footer .map {
   justify-content: center;
   align-items: center;
   display: grid;
-  display: -ms-flexbox;
-  -ms-flex-pack: center;
   margin-top: 130px; }
 
 .about .box-texto .texto {
