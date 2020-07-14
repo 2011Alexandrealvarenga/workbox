@@ -40,7 +40,9 @@ header .top-social-2 {
   position: fixed;
   padding: 0;
   z-index: 6;
-  top: 22px; }
+  /*
+  top: 22px;
+  */ }
 
 header .content-contact {
   display: inline;
@@ -281,6 +283,26 @@ header #check {
 /**************************footer*/
 footer {
   background: #2b2d42; }
+
+footer .zap-icon {
+  background: green;
+  width: 50px;
+  border-radius: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex; }
+
+footer .zap-icon .icon-whatsapp {
+  font-size: 30px; }
+
+footer .zap-icon .icon-whatsapp::before {
+  padding-bottom: 9px; }
+
+footer .zap-icon i:hover {
+  color: #d90429; }
 
 footer i,
 footer h3,

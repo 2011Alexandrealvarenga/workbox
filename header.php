@@ -23,6 +23,7 @@
 
 </style>
 <header>
+  <!--
   <div class="container-fluid top-social">
     <div class="container after-media">
       <div class="row">
@@ -53,7 +54,7 @@
       </div>
     </div>
   </div>
-  
+  -->
 
   <div class="container-fluid top-social-2">
     <div class="row">

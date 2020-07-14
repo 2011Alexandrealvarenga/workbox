@@ -49,7 +49,9 @@ header .top-social-2{
   position: fixed;
   padding:0;
   z-index: 6;
+  /*
   top: 22px;
+  */
 
 }
 
@@ -346,6 +348,32 @@ header #check{
 footer{
   background: $preto;
 }
+footer .zap-icon{
+  background: green;
+  width: 50px;
+  border-radius: 50px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+footer .zap-icon .icon-whatsapp{
+  font-size: 30px;
+}
+footer .zap-icon .icon-whatsapp::before{
+  padding-bottom: 9px;
+}
+footer .zap-icon i:hover{
+  color: $vermelho;
+}
+
+
+
 footer i,
 footer h3,
 footer p{
