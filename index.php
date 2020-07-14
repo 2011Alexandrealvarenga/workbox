@@ -87,12 +87,12 @@ Text Domain: THEMA WORKBOX
         <div class="col">
           <div class="content">
             <div class="content-title">
-              <h3>fazemos</h3>
+              <h3>FAZEMOS</h3>
             </div>
             <div class="content-box">
               <div class="item-1 card ">
                 <div class="front">
-                  <h5>PORTÃO</h5>
+                  <h5>Portão</h5>
                 </div>
                 <div class="card-body">
                   <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
@@ -100,7 +100,7 @@ Text Domain: THEMA WORKBOX
               </div>
               <div class="item-1 card ">
                 <div class="front">
-                  <h5>PORTA</h5>
+                  <h5>Porta</h5>
                 </div>
                 <div class="card-body">
                   <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/2.jpg">
@@ -108,7 +108,7 @@ Text Domain: THEMA WORKBOX
               </div>
               <div class="item-1 card ">
                 <div class="front">
-                  <h5>JANELA</h5>
+                  <h5>Janela</h5>
                 </div>
                 <div class="card-body">
                   <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/3.jpg">
@@ -116,7 +116,7 @@ Text Domain: THEMA WORKBOX
               </div>
               <div class="item-1 card ">
                 <div class="front">
-                  <h5>ESTRUTURA METÁLICA</h5>
+                  <h5>Estrutura Metálica</h5>
                 </div>
                 <div class="card-body">
                   <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/4.jpg">
@@ -124,7 +124,7 @@ Text Domain: THEMA WORKBOX
               </div>
               <div class="item-1 card ">
                 <div class="front">
-                  <h5>COBERTURA</h5>
+                  <h5>Cobertura</h5>
                 </div>
                 <div class="card-body">
                   <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
@@ -132,7 +132,7 @@ Text Domain: THEMA WORKBOX
               </div>
               <div class="item-1 card ">
                 <div class="front">
-                  <h5>GUARDA CORPO</h5>
+                  <h5>Guarda Corpo</h5>
                 </div>
                 <div class="card-body">
                   <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/5.jpg">
@@ -140,7 +140,7 @@ Text Domain: THEMA WORKBOX
               </div>
               <div class="item-1 card ">
                 <div class="front">
-                  <h5>CORRIMÃO</h5>
+                  <h5>Corrimão</h5>
                 </div>
                 <div class="card-body">
                   <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/6.jpg">
@@ -165,9 +165,25 @@ Text Domain: THEMA WORKBOX
         <div class="col d-flex justify-content-center">
           <div class="content">
             <h3>Workbox Esquadrias de Alumínio</h3>
-            <p>Fundada em 1993, a Workbox Esquadrias de Alumínio atua com o beneficiamento e a instalação caixilhos de alumínio, execução de guarda-corpo em alumínio e aço, e etc. A empresa atende a demandas em todo o território do Estado de São Paulo.
+            
+            <p>
+              <?php 
+                $sobrework = get_post_meta(
+                  $post->ID,
+                 
+                  'sobrework', true);
+                if ($sobrework) {?>
 
-Somos uma empresa familiar que acredita nas parcerias e oferecemos um atendimento especial, voltado para obras desde pequenos a grandes portes, nossos profissionais tem uma longa experiência no setor da construção civil, atuamos ainda em estrutura metálicas com soluções práticas para todas as demandas.</p>
+                  <p> 
+                   
+                    <?= $sobrework; ?>    
+                  </p>
+                  <?php 
+                }else{
+                 
+                }
+                ?>
+            </p>
           </div>
         </div>
       </div>

@@ -22,17 +22,74 @@
           -->
             <div class="item-zap">
               <i class="icon-whatsapp"></i>
-              <p>(11) 99011-6614</p>
+              <p>
+                <?php 
+                $footer_zap = get_post_meta(
+                  $post->ID,
+                 
+                  'footer_zap', true);
+                if ($footer_zap) {?>
+
+                  <p> 
+                   
+                    <?= $footer_zap; ?>    
+                  </p>
+                  <?php 
+                }else{
+                 
+                }
+                ?>
+              </p>
+
+
+
+
             </div>
             <div class="item-email">
               <i class="icon-mail"></i>
-              <p>workboxesquadrias@hotmail.com
-</p>
+              
+            <p>
+                <?php 
+                $email = get_post_meta(
+                  $post->ID,
+                 
+                  'email', true);
+                if ($email) {?>
+
+                  <p> 
+                   
+                    <?= $email; ?>    
+                  </p>
+                  <?php 
+                }else{
+                 
+                }
+                ?>
+              </p>
+
             </div>
             <div class="address">
               <i class="icon-location"></i>
-              <p>R. São Francisco, 187 - Vila Menck - Osasco - SP - CEP: 06276-090
-</p>
+              
+              <p>
+                <?php 
+                $endereco = get_post_meta(
+                  $post->ID,
+                 
+                  'endereco', true);
+                if ($endereco) {?>
+
+                  <p> 
+                   
+                    <?= $endereco; ?>    
+                  </p>
+                  <?php 
+                }else{
+                 
+                }
+                ?>
+              </p>
+
             </div>
           </div>
         </div>

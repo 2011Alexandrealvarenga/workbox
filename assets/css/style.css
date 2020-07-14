@@ -178,7 +178,8 @@ header #check {
 
 .fazemos .content {
   height: auto;
-  background: white; }
+  background: white;
+  padding: 100px 0; }
 
 .fazemos .content .content-box {
   justify-content: center;
@@ -265,7 +266,8 @@ header #check {
   background: #fff;
   margin: 30px 0;
   border-radius: 4px;
-  width: 100%; }
+  width: 100%;
+  padding: 100px 0; }
 
 .empresa .content-gallery .image {
   display: flex;
@@ -334,6 +336,9 @@ footer .map {
 
 /************************************************* pages */
 /************** equipe*/
+.titulo-equipe {
+  margin-top: 120px; }
+
 .content .content-equipe {
   display: flex;
   margin-bottom: 20px; }
@@ -390,6 +395,8 @@ footer .map {
   justify-content: center;
   align-items: center;
   display: grid;
+  display: -ms-flexbox;
+  -ms-flex-pack: center;
   margin-top: 130px; }
 
 .about .box-texto .texto {

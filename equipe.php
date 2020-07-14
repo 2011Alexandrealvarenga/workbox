@@ -19,7 +19,10 @@ Text Domain: THEMA WORKBOX
 <div class="container">
   <div class="row">
     <div class="col">
-      <h2>EQUIPE</h2>
+      <div class="titulo-equipe">
+       <h2>EQUIPE</h2> 
+      </div>
+      
     </div>
   </div>
   <div class="content mt-5">
