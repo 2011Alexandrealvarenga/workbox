@@ -40,6 +40,12 @@ $vermelho-c: #ef233c;
 $vermelho: #d90429; 
 $branco: #fff; 
 
+/******************extends*/
+.centralizar{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 
 /******************header*/
 header .top-social{
@@ -63,27 +69,36 @@ header .top-social-2{
 header .content-contact{
   display: inline;
   padding: 5px 0;
+
+    .content-phone{
+    display: flex;
+    float: left;
+  }
+
+  .content-social-media{
+    display: flex;
+    float: right;
+
+    .icon-facebook{
+      color: white;
+    }
+
+  }
 }
-header .content-contact .content-phone{
-  display: flex;
-  float: left;
-}
-header .content-contact .content-social-media{
-  display: flex;
-  float: right;
-}
+
+
+
 
 
 header .content-contact .content-phone .item-phone,
 header .content-contact .content-phone .item-zap,
 header .content-contact .content-social-media .item-email{
   display: flex;
-  color: white;
+  color: $branco;
 }
 
-header .content-contact .social-media .icon-facebook{
-  color: white;
-}
+
+
 header .content-contact .social-media .icon-facebook:before{
   margin-right: 0!important;
 }
@@ -109,7 +124,7 @@ header nav{
 
 }
 header label.logo{
-  color: white;
+  color: $branco;
   font-size: 35px;
   line-height: 80px;
   padding: 0 20px 0 70px;
@@ -126,20 +141,26 @@ header nav ul{
   float: right;
   margin-bottom: 0;
   padding-right: 70px;
-}
-header nav ul li{
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-}
-header nav ul li a{
-  color: white; 
-  font-size: 17px;
-  padding: 7px 13px;
-  border-radius: 3px;
-  text-transform: uppercase;
 
+  li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+    a{
+      color: $branco; 
+      font-size: 17px;
+      padding: 7px 13px;
+      border-radius: 3px;
+      text-transform: uppercase;
+
+    }
+  }
 }
+
+
+
+
 
 header a.active,
 header a:hover{
@@ -149,11 +170,9 @@ header a:hover{
   text-decoration: none;
 }
 
-
-
 header .checkbtn{
   font-size: 30px;
-  color: white;
+  color: $branco;
   float: right;
   line-height: 80px;
   margin-right: 40px;
@@ -169,15 +188,16 @@ header #check{
 /**************************banner*/
 .carousel{
   margin-top: 100px;
+
+  .item{
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    left: 40px; 
+  }
 }
 
-.carousel .item{
-  position: absolute;
-  width: 100%;
-  top: 40px;
-  left: 40px;
-  
-}
+
 .carousel .item h2,
 .carousel .item h5,
 .carousel .item  h3{
@@ -200,68 +220,48 @@ header #check{
 /**************************fazemos*/
 
 
-
-
-
-
-
-
-
 .fazemos{
   height: auto;
-  justify-content: center;
-  display: flex;
+  @extend .centralizar;
   text-align: center;
-  align-items: center;
   padding: 20px 0;
-}
-.fazemos .content{
-  height: auto;
-  background: white;
-  padding: 100px 0;
-  
-}
-.fazemos .content .content-box{
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-}
-.fazemos .content .content-box .item-1{
-  height: 150px;
-  width: 200px;
-  margin: 20px;
-  border-radius: 4px;
-  background: $prata;
-  border: none;  
+
+  .content{
+    height: auto;
+    background: white;
+    padding: 100px 0;
+
+    .content-box{
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+
+      .item-1{
+        height: 150px;
+        width: 200px;
+        margin: 20px;
+        border-radius: 4px;
+        background: $prata;
+        border: none;  
+
+        .front{
+          @extend .centralizar;
+          
+          
+        }
+      }
+
+      .card{
+        height: 150px;
+        width: 200px;
+        cursor: pointer;
+      }
+
+    }
+
+  }
 }
 
-.fazemos .content .content-box .item-2{
-  height: 150px;
-  width: 200px;
-  object-fit: cover;
-  margin: 20px;
-  border-radius: 4px;
-
-  background: url(1.jpg);
-  background-repeat: no-repeat; 
-  
-}
-.fazemos .content .content-box .item-2 img{
-  height: 150px;
-  width: 200px;
-  object-fit: cover;
-}
-
-.fazemos .content .content-box .front{
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-.fazemos .content .content-box .card{
-  height: 150px;
-  width: 200px;
-  cursor: pointer;
-}
 
 .fazemos .content .content-box .front, 
 .fazemos .content .content-box .card-body{
@@ -304,51 +304,43 @@ header #check{
 .empresa{
   height: auto;
   background: $prata;
-  justify-content: center;
-  display: flex;
-  align-items: center;
+  @extend .centralizar;
+
+  .content{
+    background: white;
+    text-align: center;
+    width: 600px;
+    margin: 30px 0;
+    padding: 0 20px 20px 20px;
+    border-radius: 4px;
+  }
+    .content-gallery{
+    background: $branco;
+    margin: 30px 0;
+    border-radius: 4px;
+    width: 100%;
+    padding: 100px 0;
+
+    .image{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+
+    .size-thumbnail{
+      width: 250px;
+      height: 200px;
+      object-fit: cover;
+      margin: 10px;
+      border-radius: 4px;
+    }
+  }
 }
-.empresa .content{
-  background: white;
-  text-align: center;
-  width: 600px;
-  margin: 30px 0;
-  padding: 0 20px 20px 20px;
-  border-radius: 4px;
-}
-.empresa .content-gallery{
-  background: $branco;
-  margin: 30px 0;
-  border-radius: 4px;
-  width: 100%;
-  padding: 100px 0;
-}
-
-.empresa .content-gallery .image{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.empresa .content-gallery .size-thumbnail{
-  width: 250px;
-  height: 200px;
-  object-fit: cover;
-  margin: 10px;
-  border-radius: 4px;
-} 
-/********** teste galeria*/
 
 
 
 
-
-
-
-
-
-
-/********** teste galeria*/
 /**************************footer*/
 footer{
   background: $preto;
@@ -361,9 +353,7 @@ footer .zap-icon{
   right: 20px;
   bottom: 20px;
 
-  justify-content: center;
-  align-items: center;
-  display: flex;
+    @extend .centralizar;
 }
 
 
@@ -424,13 +414,11 @@ footer .map{
   justify-content: center;
   align-content: center;
   display: grid;
-  background: #edf2f4;
+  background: $prata;
 }
 .content .content-equipe .foto{
   width: 50%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
+    @extend .centralizar;
 }
 .content .content-equipe .foto img{
   width: 350px;
@@ -478,25 +466,6 @@ footer .map{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**************************sobre nos*/
 .about{
   min-height: 100vh;
@@ -527,12 +496,12 @@ footer .map{
     .carousel .carousel-inner .carousel-item img{
     width: 1200px;
     height: 600px;
-    object-fit: cover;
+    
   }
   .empresa .content-gallery .size-thumbnail{
     width: 220px;
     height: 180px;
-    object-fit: cover;
+    
   }
 }
 /******************************** 541 a 766*/
@@ -540,7 +509,7 @@ footer .map{
   .carousel .carousel-inner .carousel-item img{
     width: 1200px;
     height: 500px;
-    object-fit: cover;
+    
   }
   .empresa .content-gallery .size-thumbnail{
     width: 150px;
@@ -552,7 +521,7 @@ footer .map{
   .carousel .carousel-inner .carousel-item img{
     width: 1200px;
     height: 400px;
-    object-fit: cover;
+    
   }
   .fazemos .content .content-box .front, .fazemos .content .content-box .card-body,
   .fazemos .content .content-box .card-body,
@@ -572,7 +541,7 @@ footer .map{
   .carousel .carousel-inner .carousel-item img{
     width: 1200px;
     height: 300px;
-    object-fit: cover;
+    
   }
   .fazemos .content .content-box .front, .fazemos .content .content-box .card-body,
   .fazemos .content .content-box .card-body,
@@ -609,7 +578,7 @@ footer .map{
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #2c3e50;
+    background: $preto;
     top: 80px;
     left: -100%;
     text-align: center;
