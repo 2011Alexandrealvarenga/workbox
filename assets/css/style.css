@@ -82,8 +82,7 @@ header .top-social-2 nav h3 {
 header nav {
   background: #2b2d42;
   height: 80px;
-  width: 100%;
-  display: block ruby; }
+  width: 100%; }
 
 header label.logo {
   color: white;
@@ -91,7 +90,10 @@ header label.logo {
   line-height: 80px;
   padding: 0 20px 0 70px;
   font-weight: bold;
-  margin: 0; }
+  margin: 0;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
 
 header nav ul {
   float: right;

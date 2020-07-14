@@ -101,7 +101,7 @@ header nav{
   background: $preto;
   height: 80px;
   width: 100%;
-  display: block ruby;
+
 }
 header label.logo{
   color: white;
@@ -110,6 +110,9 @@ header label.logo{
   padding: 0 20px 0 70px;
   font-weight: bold;
   margin: 0;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 header nav ul{
   float: right;
