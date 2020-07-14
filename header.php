@@ -16,6 +16,10 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/fontello.css">
   <!--galeria -->
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/magnific-popup.css">
+  <!--font titulo -->
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <!--font paragrafo  -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
   
  
 </head>
