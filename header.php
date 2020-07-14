@@ -14,12 +14,8 @@
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <!--icones -->
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/fontello.css">
-  <!--galeria 
-<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/magnific-popup.css">
-  -->
-  
-
- 
+  <!--galeria -->
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/magnific-popup.css">
   
  
 </head>
@@ -73,10 +69,10 @@
           </label>
           
           <ul>
-            <li> <a href="http://localhost/SITES%20CLIENTES/WORKBOX/WP/">HOME</a></li>
-            <li> <a href="http://localhost/SITES%20CLIENTES/WORKBOX/WP/index.php/portfolio/">PORTFÓLIO</a></li>
-            <li> <a href="http://localhost/SITES%20CLIENTES/WORKBOX/WP/index.php/equipe/">EQUIPE</a></li>
-            <li> <a href="http://localhost/SITES%20CLIENTES/WORKBOX/WP/index.php/sobre-nos/">sobre nos</a></li>
+            <li> <a href="http://localhost/SITES CLIENTES/WORKBOX/WP2/">HOME</a></li>
+            <li> <a href="http://localhost/SITES CLIENTES/WORKBOX/WP2/index.php/portfolio/">PORTFÓLIO</a></li>
+            <li> <a href="http://localhost/SITES CLIENTES/WORKBOX/WP2/index.php/equipe/">EQUIPE</a></li>
+            <li> <a href="http://localhost/SITES CLIENTES/WORKBOX/WP2/index.php/sobre-nos/">sobre nos</a></li>
             
           </ul>
         </nav>

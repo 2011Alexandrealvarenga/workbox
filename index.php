@@ -12,7 +12,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: THEMA WORKBOX
 */
 
-
  ?>
 <?php get_header(); ?>
 <body>
@@ -172,23 +171,18 @@ Somos uma empresa familiar que acredita nas parcerias e oferecemos um atendiment
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row"><!--galleria -->
         <div class="col d-flex justify-content-center">
           <div class="content-gallery">
             <div class="title">
               <h3>Confira alguns trabalhos realizados</h3>
             </div>
-
+            <div class="item">
+              <?php the_content(); ?>
               
-             
-                <div class="item">
-                  <?php the_content(); ?>
-                  
-                </div>
+            </div>
 
-              
-
-              </div>
+            </div>
           
           </div>
         </div>
