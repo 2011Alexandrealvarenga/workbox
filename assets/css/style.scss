@@ -114,6 +114,9 @@ header label.logo{
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
+header label.logo a:hover{
+  background: transparent;
+}
 header nav ul{
   float: right;
   margin-bottom: 0;
@@ -412,17 +415,21 @@ footer .map{
 
 .portfolio .content{
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .portfolio .content .content-box{
   width: 45%;
   margin: 0 5px;
   background: lightgray;
+  margin-bottom: 20px;
 }
 .portfolio .content .content-box .texto{
   padding: 10px;
 }
 .portfolio .content .content-box .texto p{
   text-align: justify;
+  padding-bottom: 10px;
 }
 
 
@@ -588,6 +595,9 @@ footer .map{
       padding: 0;
 
     }   
+    .portfolio .content .content-box{
+      width: 90%;
+    }
   }
 /********************************600*/
   @media (max-width: 600px){
