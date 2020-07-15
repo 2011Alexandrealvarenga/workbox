@@ -1,3 +1,4 @@
+
 <footer>
   <div class="zap-icon">
     <a href="https://api.whatsapp.com/send?phone=11990116614&text=Ol%C3%A1,%20acessei%20o%20site%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank">
@@ -22,24 +23,7 @@
           -->
             <div class="item-zap">
               <i class="icon-whatsapp"></i>
-              <p>
-                <?php 
-                $footer_zap = get_post_meta(
-                  $post->ID,
-                 
-                  'footer_zap', true);
-                if ($footer_zap) {?>
-
-                  <p> 
-                   
-                    <?= $footer_zap; ?>    
-                  </p>
-                  <?php 
-                }else{
-                 
-                }
-                ?>
-              </p>
+              <p>(11) 99011-6614</p>
 
 
 
@@ -47,48 +31,12 @@
             </div>
             <div class="item-email">
               <i class="icon-mail"></i>
-              
-            <p>
-                <?php 
-                $email = get_post_meta(
-                  $post->ID,
-                 
-                  'email', true);
-                if ($email) {?>
-
-                  <p> 
-                   
-                    <?= $email; ?>    
-                  </p>
-                  <?php 
-                }else{
-                 
-                }
-                ?>
-              </p>
-
+                <p>workboxesquadrias@hotmail.com</p>
             </div>
             <div class="address">
               <i class="icon-location"></i>
-              
-              <p>
-                <?php 
-                $endereco = get_post_meta(
-                  $post->ID,
-                 
-                  'endereco', true);
-                if ($endereco) {?>
-
-                  <p> 
-                   
-                    <?= $endereco; ?>    
-                  </p>
-                  <?php 
-                }else{
-                 
-                }
-                ?>
-              </p>
+                <p>R. São Francisco, 187 - Vila Menck - Osasco - SP - CEP: 06276-090
+</p>
 
             </div>
           </div>
@@ -114,24 +62,12 @@
 
 <!-- MENU -->
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-<!-- 
-
-
-
--->
 
 <!--galleria -->
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
-
 <script src="<?php bloginfo('template_url') ?>/assets/js/jqpage.js"></script>
-
- 
-
 <script src="<?php bloginfo('template_url') ?>/assets/js/jquery.magnific-popup.min.js"></script>
 <script src="<?php bloginfo('template_url') ?>/assets/js/gallery.js"></script>
-
-
 
 <!--carousel -->
 <script src="<?php bloginfo('template_url') ?>/assets/js/jquery.js"></script>

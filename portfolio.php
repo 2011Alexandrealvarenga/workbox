@@ -2,13 +2,11 @@
 /*
 Template name: portfolio
 Theme Name: THEMA WORKBOX
-Theme URI: https://wordpress.org/themes/twentytwenty/
 Author: Alexandre Alvarenga
 Author URI: 
 Description: 
 Tags: site serralheria industrial, janelas, portas, portao, estrutura metálica, cobertura, guarda corpo, corrimão
 Version: 1
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: THEMA WORKBOX
 */
 
@@ -49,12 +47,10 @@ Text Domain: THEMA WORKBOX
           
         
         </div> 
-        <!--
-          <img class="img-fluid" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
-        -->
+       
       </div>
     <?php endwhile; ?>
-    <?php else : get_404_template();  endif; ?>
+    <?php else : endif; ?>
      
     </div>
  
