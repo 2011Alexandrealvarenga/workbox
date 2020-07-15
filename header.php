@@ -8,14 +8,17 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/style.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css"> 
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-  <!-- caber na tela cel -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--compatibilidade -->
-  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <!--icones -->
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/fontello.css">
   <!--galeria -->
   <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/magnific-popup.css">
+  <!--aparecer texto -->
+  <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/aos.css">
+
+  <!-- caber na tela cel -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--compatibilidade -->
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <!--font titulo -->
   <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
   <!--font paragrafo  -->

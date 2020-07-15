@@ -19,7 +19,7 @@ Text Domain: THEMA WORKBOX
     <div class="row">
         <div id="carouselBSWP" class="carousel slide" data-ride="carousel">
             
-            <div class="item">
+            <div class="item" >
               <div class="titulo">
                 <h2>Serralheria</h2>
               </div>
@@ -87,7 +87,7 @@ Text Domain: THEMA WORKBOX
         <div class="col">
           <div class="content">
             <div class="content-title">
-              <h3>FAZEMOS</h3>
+              <h3 data-aos="fade-right">FAZEMOS</h3>
             </div>
             <div class="content-box">
               <div class="item-1 card ">
@@ -191,7 +191,7 @@ Text Domain: THEMA WORKBOX
         <div class="col d-flex justify-content-center">
           <div class="content-gallery">
             <div class="title">
-              <h3>Confira alguns trabalhos realizados</h3>
+              <h3 data-aos="fade-right">Confira alguns trabalhos realizados</h3>
             </div>
             <div class="item">
               <?php the_content(); ?>

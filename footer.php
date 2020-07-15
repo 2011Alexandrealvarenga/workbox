@@ -59,7 +59,14 @@
 
 
 
-
+<!-- aparecer texto -->
+<script src="<?php bloginfo('template_url') ?>/assets/js/aos.js"></script>
+<script>
+    AOS.init({
+      offset: 100,
+      duration: 1000
+    });
+  </script>
 <!-- MENU -->
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
