@@ -95,7 +95,7 @@ Text Domain: THEMA WORKBOX
                   <h5>Portão</h5>
                 </div>
                 <div class="card-body">
-                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/portao.jpg">
                 </div>
               </div>
               <div class="item-1 card ">
@@ -103,7 +103,7 @@ Text Domain: THEMA WORKBOX
                   <h5>Porta</h5>
                 </div>
                 <div class="card-body">
-                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/2.jpg">
+                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/porta.jpg">
                 </div>
               </div>
               <div class="item-1 card ">
@@ -111,7 +111,7 @@ Text Domain: THEMA WORKBOX
                   <h5>Janela</h5>
                 </div>
                 <div class="card-body">
-                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/3.jpg">
+                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/janela.jpg">
                 </div>
               </div>
               <div class="item-1 card ">
@@ -119,7 +119,7 @@ Text Domain: THEMA WORKBOX
                   <h5>Estrutura Metálica</h5>
                 </div>
                 <div class="card-body">
-                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/4.jpg">
+                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/estrutura-metalica.jpg">
                 </div>
               </div>
               <div class="item-1 card ">
@@ -127,7 +127,7 @@ Text Domain: THEMA WORKBOX
                   <h5>Cobertura</h5>
                 </div>
                 <div class="card-body">
-                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/1.jpg">
+                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/cobertura.jpg">
                 </div>
               </div>
               <div class="item-1 card ">
@@ -135,7 +135,7 @@ Text Domain: THEMA WORKBOX
                   <h5>Guarda Corpo</h5>
                 </div>
                 <div class="card-body">
-                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/5.jpg">
+                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/guarda-corpo.jpg">
                 </div>
               </div>
               <div class="item-1 card ">
@@ -143,7 +143,7 @@ Text Domain: THEMA WORKBOX
                   <h5>Corrimão</h5>
                 </div>
                 <div class="card-body">
-                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/6.jpg">
+                  <img class="img-galery" src="<?php bloginfo('template_url'); ?>/assets/img/corrimao.jpg">
                 </div>
               </div>
 
