@@ -192,6 +192,15 @@ header #check {
         width: 200px;
         cursor: pointer; }
 
+.fazemos .content .content-title {
+  justify-content: center;
+  display: flex; }
+  .fazemos .content .content-title h3 {
+    background: #ef233c;
+    width: 30%;
+    border-radius: 30px 0;
+    color: #fff; }
+
 .fazemos .content .content-box .front,
 .fazemos .content .content-box .card-body {
   padding: 0;
@@ -248,6 +257,36 @@ header #check {
       margin: 10px;
       border-radius: 4px; }
 
+.empresa .content-gallery .title {
+  justify-content: center;
+  display: flex; }
+  .empresa .content-gallery .title h3 {
+    width: 50%;
+    background: #ef233c;
+    border-radius: 30px 0;
+    color: #fff; }
+
+.empresa .content h3 {
+  position: relative; }
+
+.empresa .content h3:after {
+  content: '';
+  display: grid;
+  height: 4px;
+  width: 400px;
+  background: #ef233c;
+  margin: 5px auto;
+  transition: 1s; }
+
+.empresa .content h3:hover::after {
+  content: '';
+  display: grid;
+  height: 4px;
+  width: 250px;
+  background: #d90429;
+  margin: 5px auto;
+  transition: 1s; }
+
 /**************************footer*/
 footer {
   background: #2b2d42; }
@@ -301,24 +340,41 @@ footer .map {
 .titulo-equipe {
   margin-top: 120px; }
 
+.titulo-equipe h2 {
+  position: relative; }
+  .titulo-equipe h2:after {
+    content: '';
+    display: grid;
+    height: 4px;
+    width: 100px;
+    background: #ef233c;
+    margin: 5px auto;
+    transition: 1s; }
+
+.titulo-equipe h2:hover::after {
+  content: '';
+  display: grid;
+  height: 4px;
+  width: 80px;
+  background: #d90429;
+  margin: 5px auto;
+  transition: 1s; }
+
 .content .content-equipe {
   display: flex;
   margin-bottom: 20px; }
-
-.content .content-equipe .desc {
-  width: 50%;
-  justify-content: center;
-  align-content: center;
-  display: grid;
-  background: #edf2f4; }
-
-.content .content-equipe .foto {
-  width: 50%; }
-
-.content .content-equipe .foto img {
-  width: 350px;
-  object-fit: cover;
-  border-radius: 50%; }
+  .content .content-equipe .desc {
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    background: #edf2f4; }
+  .content .content-equipe .foto {
+    width: 50%; }
+    .content .content-equipe .foto img {
+      width: 350px;
+      object-fit: cover;
+      border-radius: 50%; }
 
 /*************** portfolio*/
 .portfolio {
@@ -332,33 +388,67 @@ footer .map {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
+  .portfolio .content .content-box {
+    width: 45%;
+    margin: 0 5px;
+    background: #edf2f4;
+    margin-bottom: 20px; }
+    .portfolio .content .content-box .texto {
+      padding: 10px; }
+      .portfolio .content .content-box .texto p {
+        text-align: justify;
+        padding-bottom: 10px; }
 
-.portfolio .content .content-box {
-  width: 45%;
-  margin: 0 5px;
-  background: #edf2f4;
-  margin-bottom: 20px; }
+.portfolio .title h2 {
+  position: relative; }
+  .portfolio .title h2:after {
+    content: '';
+    display: grid;
+    height: 4px;
+    width: 200px;
+    background: #ef233c;
+    margin: 5px auto;
+    transition: 1s; }
 
-.portfolio .content .content-box .texto {
-  padding: 10px; }
-
-.portfolio .content .content-box .texto p {
-  text-align: justify;
-  padding-bottom: 10px; }
+.portfolio .title h2:hover::after {
+  content: '';
+  display: grid;
+  height: 4px;
+  width: 150px;
+  background: #d90429;
+  margin: 5px auto;
+  transition: 1s; }
 
 /**************************sobre nos*/
 .about {
   min-height: 100vh; }
+  .about .box-texto {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin-top: 130px; }
+    .about .box-texto .texto {
+      width: 600px;
+      text-align: justify; }
+    .about .box-texto h2 {
+      position: relative; }
+      .about .box-texto h2:after {
+        content: '';
+        display: grid;
+        height: 4px;
+        width: 100px;
+        background: #ef233c;
+        margin: 5px auto;
+        transition: 1s; }
 
-.about .box-texto {
-  justify-content: center;
-  align-items: center;
+.about .box-texto h2:hover::after {
+  content: '';
   display: grid;
-  margin-top: 130px; }
-
-.about .box-texto .texto {
-  width: 600px;
-  text-align: justify; }
+  height: 4px;
+  width: 70px;
+  background: #d90429;
+  margin: 5px auto;
+  transition: 1s; }
 
 /*
 767 a 992

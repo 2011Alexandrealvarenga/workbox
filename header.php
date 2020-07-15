@@ -77,7 +77,7 @@
             <li> <a href="http://localhost/SITES CLIENTES/WORKBOX/WP2/">HOME</a></li>
             <li> <a href="http://localhost/SITES CLIENTES/WORKBOX/WP2/index.php/portfolio/">PORTFÓLIO</a></li>
             <li> <a href="http://localhost/SITES CLIENTES/WORKBOX/WP2/index.php/equipe/">EQUIPE</a></li>
-            <li> <a href="http://localhost/SITES CLIENTES/WORKBOX/WP2/index.php/sobre-nos/">sobre nos</a></li>
+            <li> <a href="http://localhost/SITES CLIENTES/WORKBOX/WP2/index.php/sobre-nos/">sobre nós</a></li>
             
           </ul>
         </nav>

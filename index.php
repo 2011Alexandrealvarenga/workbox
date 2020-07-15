@@ -21,7 +21,7 @@ Text Domain: THEMA WORKBOX
             
             <div class="item">
               <div class="titulo">
-                <h2>Workbox Serralheria</h2>
+                <h2>Serralheria</h2>
               </div>
               <div class="trabalhamos">
                 <h5>Trabalhamos com</h5>

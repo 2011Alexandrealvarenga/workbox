@@ -261,6 +261,17 @@ header #check{
 
   }
 }
+.fazemos .content .content-title{
+  justify-content: center;
+  display: flex;
+
+  h3{
+    background: $vermelho-c;
+    width: 30%;
+    border-radius: 30px 0;
+    color: $branco;
+  }
+}
 
 
 .fazemos .content .content-box .front, 
@@ -338,7 +349,39 @@ header #check{
   }
 }
 
+.empresa .content-gallery .title{
+  justify-content: center;
+  display: flex;
 
+  h3{
+    width: 50%;
+    background: $vermelho-c;
+    border-radius: 30px 0;
+    color: $branco;
+  }
+}
+
+.empresa .content h3{
+  position: relative;
+}
+.empresa .content h3:after{
+  content: '';
+  display: grid;
+  height: 4px;
+  width: 400px;
+  background: $vermelho-c;
+  margin: 5px auto;
+  transition: 1s;
+}
+.empresa .content h3:hover::after{
+  content: '';
+  display: grid;
+  height: 4px;
+  width: 250px;
+  background: $vermelho;
+  margin: 5px auto;
+  transition: 1s;
+}
 
 
 /**************************footer*/
@@ -406,30 +449,62 @@ footer .map{
 .titulo-equipe{
   margin-top: 120px;
 }
+
+.titulo-equipe h2{
+  position: relative;
+
+    &:after{
+    content: '';
+    display: grid;
+    height: 4px;
+    width: 100px;
+    background: $vermelho-c;
+    margin: 5px auto;
+    transition: 1s;
+  }
+}
+
+.titulo-equipe h2:hover::after{
+  content: '';
+  display: grid;
+  height: 4px;
+  width: 80px;
+  background: $vermelho;
+  margin: 5px auto;
+  transition: 1s;
+}
+
 .content .content-equipe{
   display: flex;
   margin-bottom: 20px;
+
+  .desc{
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    background: $prata;
+  }
+
+  .foto{
+    width: 50%;
+      @extend .centralizar;
+
+    img{
+      width: 350px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
 }
-.content .content-equipe .desc{
-  width: 50%;
-  justify-content: center;
-  align-content: center;
-  display: grid;
-  background: $prata;
-}
-.content .content-equipe .foto{
-  width: 50%;
-    @extend .centralizar;
-}
-.content .content-equipe .foto img{
-  width: 350px;
-  object-fit: cover;
-  border-radius: 50%;
-}
+
 
 /*************** portfolio*/
 .portfolio{
   min-height: 100vh;
+
+
+
 }
 
 .portfolio .title{
@@ -441,19 +516,47 @@ footer .map{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  .content-box{
+    width: 45%;
+    margin: 0 5px;
+    background: $prata;
+    margin-bottom: 20px;
+
+    .texto{
+      padding: 10px;
+
+      p{
+        text-align: justify;
+        padding-bottom: 10px;
+      }
+    }
+  }
 }
-.portfolio .content .content-box{
-  width: 45%;
-  margin: 0 5px;
-  background: $prata;
-  margin-bottom: 20px;
+
+
+.portfolio .title h2{
+  position: relative;
+
+    &:after{
+    content: '';
+    display: grid;
+    height: 4px;
+    width: 200px;
+    background: $vermelho-c;
+    margin: 5px auto;
+    transition: 1s;
+  }
 }
-.portfolio .content .content-box .texto{
-  padding: 10px;
-}
-.portfolio .content .content-box .texto p{
-  text-align: justify;
-  padding-bottom: 10px;
+
+.portfolio .title h2:hover::after{
+  content: '';
+  display: grid;
+  height: 4px;
+  width: 150px;
+  background: $vermelho;
+  margin: 5px auto;
+  transition: 1s;
 }
 
 
@@ -462,19 +565,43 @@ footer .map{
 /**************************sobre nos*/
 .about{
   min-height: 100vh;
+
+  .box-texto{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin-top: 130px;
+
+          .texto{
+            width: 600px;
+            text-align: justify;
+          }
+
+    h2{
+      position: relative;
+
+        &:after{
+        content: '';
+        display: grid;
+        height: 4px;
+        width: 100px;
+        background: $vermelho-c;
+        margin: 5px auto;
+        transition: 1s;
+      }
+    }
+  }
 }
 
-.about .box-texto{
-  justify-content: center;
-  align-items: center;
+
+.about .box-texto h2:hover::after{
+  content: '';
   display: grid;
-  margin-top: 130px;
-
-
-}
-.about .box-texto .texto{
-  width: 600px;
-  text-align: justify;
+  height: 4px;
+  width: 70px;
+  background: $vermelho;
+  margin: 5px auto;
+  transition: 1s;
 }
 
 /*
